@@ -12,7 +12,7 @@
     (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206010100_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf" (id 3) (at 0 -20.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "UserValue" "1k" (id 4) (at -2.54 0 90)
+    (property "UserValue" "10k" (id 4) (at -2.54 0 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "MFR" "UNI-ROYAL" (id 5) (at 0 -30.48 0)
