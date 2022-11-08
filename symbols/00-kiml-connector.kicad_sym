@@ -6,7 +6,7 @@
     (property "Value" "USB_B_Micro_10118194-0001LF" (id 1) (at -13.97 -22.86 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "Connector_USB:USB_Micro-B_Amphenol_10118194_Horizontal" (id 2) (at 1.27 17.78 0)
+    (property "Footprint" "00-kiml-connector-usb:USB_Micro-B_Amphenol_10118194_Horizontal" (id 2) (at 1.27 17.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 3.81 -1.27 0)

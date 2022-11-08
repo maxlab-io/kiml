@@ -6,7 +6,7 @@
     (property "Value" "SW_DIP_x02_50mil_1.27mm_TP-02" (id 1) (at 0 17.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (id 2) (at 0 0 0)
+    (property "Footprint" "00-kiml-button-switch-smd:SW_DIP_1.27mm_0.50mil_TP-02" (id 2) (at 0 20.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2005262138_Yuandi-TP-02_C559165.pdf" (id 3) (at 0 12.7 0)
