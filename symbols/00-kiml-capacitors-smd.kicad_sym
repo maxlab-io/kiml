@@ -6,7 +6,7 @@
     (property "Value" "100n_0402_CL05B104KB54PNC" (id 1) (at -13.97 -40.64 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (id 2) (at 0.635 -12.065 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (id 2) (at 0.635 -12.065 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810191222_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf" (id 3) (at 0 -16.51 0)
