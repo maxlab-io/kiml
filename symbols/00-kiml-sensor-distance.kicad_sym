@@ -6,7 +6,7 @@
     (property "Value" "VL6180XV0NR{brace}slash}1" (id 1) (at 27.94 7.62 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "VL6180X_STM" (id 2) (at 27.94 6.096 0)
+    (property "Footprint" "00-kiml-misc:VL6180XV0NR_slash_1" (id 2) (at 27.94 6.096 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2106070037_STMicroelectronics-VL6180XV0NR-1_C2688732.pdf" (id 3) (at 0 0 0)
