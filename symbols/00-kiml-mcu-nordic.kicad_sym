@@ -135,7 +135,7 @@
         (name "P0.01/XL2" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at -22.86 20.32 0) (length 2.54)
+      (pin passive line (at -22.86 30.48 0) (length 2.54)
         (name "ANT" (effects (font (size 1.27 1.27))))
         (number "30" (effects (font (size 1.27 1.27))))
       )
