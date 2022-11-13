@@ -135,7 +135,7 @@
       )
     )
     (symbol "X2016-32MHz_1_1"
-      (pin unspecified line (at -6.35 2.54 0) (length 2.54)
+      (pin passive line (at -6.35 2.54 0) (length 2.54)
         (name "1" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
@@ -143,7 +143,7 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin unspecified line (at 6.35 2.54 180) (length 2.54)
+      (pin passive line (at 6.35 2.54 180) (length 2.54)
         (name "3" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
