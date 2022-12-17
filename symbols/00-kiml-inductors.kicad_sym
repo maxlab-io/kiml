@@ -297,7 +297,7 @@
     (property "MFR" "Sunlord" (id 5) (at -1.27 -16.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "1SWRB1205S-150MT" (id 6) (at -2.54 -13.97 0)
+    (property "MPN" "SWRB1205S-150MT" (id 6) (at -2.54 -13.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "SPL1" "JLCPCB" (id 7) (at 0 -19.05 0)
