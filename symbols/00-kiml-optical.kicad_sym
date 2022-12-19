@@ -6,7 +6,7 @@
     (property "Value" "PIR_BS612" (id 1) (at 0 17.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (id 2) (at -3.81 2.54 0)
+    (property "Footprint" "00-kiml-optical:BS612" (id 2) (at 0 22.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://cdn-shop.adafruit.com/product-files/5578/C17724.pdf" (id 3) (at 1.27 15.24 0)

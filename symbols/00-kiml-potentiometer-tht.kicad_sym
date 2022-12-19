@@ -6,7 +6,7 @@
     (property "Value" "1M_3362P-1-105" (id 1) (at 0 19.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "Potentiometer_THT:Potentiometer_Vishay_T73YP_Vertical" (id 2) (at 0 21.59 0)
+    (property "Footprint" "00-kiml-potentiometer-tht:Potentiometer_Vishay_T73YP_Vertical" (id 2) (at 0 21.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810161748_BOCHEN-Chengdu-Guosheng-Tech-3362P-1-105_C118945.pdf" (id 3) (at 0 24.13 0)

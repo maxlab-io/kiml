@@ -6,7 +6,7 @@
     (property "Value" "ESP32-S3-WROOM-1-N16R8" (id 1) (at -15.24 39.37 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "RF_Module:ESP32-S3-WROOM-1" (id 2) (at 0 -33.02 0)
+    (property "Footprint" "00-kiml-rf-module:ESP32-S3-WROOM-1" (id 2) (at 0 -33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf" (id 3) (at 0 -35.56 0)

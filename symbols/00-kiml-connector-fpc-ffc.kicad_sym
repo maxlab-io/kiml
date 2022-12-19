@@ -6,7 +6,7 @@
     (property "Value" "Conn_01x24_FFC_0.5mm_hirose_FH12-24S-0.5SH" (id 1) (at 0 -33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "Connector_FFC-FPC:Hirose_FH12-24S-0.5SH_1x24-1MP_P0.50mm_Horizontal" (id 2) (at 0 -43.18 0)
+    (property "Footprint" "00-kiml-connector-fpc-ffc:Hirose_FH12-24S-0.5SH_1x24-1MP_P0.50mm_Horizontal" (id 2) (at 0 -43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811021340_HRS-Hirose-FH12-24S-0-5SH-55_C202112.pdf" (id 3) (at 0 36.83 0)
