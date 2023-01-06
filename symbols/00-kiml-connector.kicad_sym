@@ -81,7 +81,7 @@
     (property "Value" "Conn-02x10_P2.54mm_B-2100S20P-B110" (id 1) (at 0 -16.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical" (id 2) (at 0 19.05 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical" (id 2) (at 0 19.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810241611_Ckmtw-Shenzhen-Cankemeng-B-2100S20P-B110_C124359.pdf" (id 3) (at -2.54 -31.75 0)
