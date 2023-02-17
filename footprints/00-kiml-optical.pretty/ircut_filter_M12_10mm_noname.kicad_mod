@@ -132,7 +132,7 @@
   (zone (net 0) (net_name "") (layer "F.Cu") (tstamp 8942dc0e-847f-4f64-ad8b-2c36fc702262) (hatch edge 0.508)
     (connect_pads (clearance 0))
     (min_thickness 0.254) (filled_areas_thickness no)
-    (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed) (copperpour allowed) (footprints allowed))
+    (keepout (tracks not_allowed) (vias allowed) (pads not_allowed) (copperpour allowed) (footprints allowed))
     (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
@@ -148,7 +148,7 @@
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))
   )
-  (model "${KIML_ROOT}/3d/00-kiml-optical.3dshapes/ov9655.stp" hide
+  (model "${KIML_ROOT}/3d/00-kiml-optical.3dshapes/ov9655.stp"
     (offset (xyz 0 -13 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
