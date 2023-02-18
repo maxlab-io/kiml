@@ -6,7 +6,7 @@
     (property "Value" "AAA-HOLDER_BH-AAA-B5AA005" (at -15.24 15.24 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "" (at 0 1.524 90)
+    (property "Footprint" "00-kiml-battery:BH-AAA-B5AA005" (at 1.27 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2210131530_MYOUNG-BH-AAA-B5AA005_C2979170.pdf" (at 0 25.4 0)
