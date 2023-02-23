@@ -6,7 +6,7 @@
     (property "Value" "32.768kHz_Q13FC1350000400" (at 0 5.08 0)
       (effects (font (size 0 0)) hide)
     )
-    (property "Footprint" "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm" (at 1.27 -20.32 0)
+    (property "Footprint" "00-kiml-crystal-smd:Crystal_SMD_3215-2Pin_3.2x1.5mm" (at 1.27 -20.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810171817_Seiko-Epson-Q13FC1350000400_C32346.pdf" (at 0 16.51 0)

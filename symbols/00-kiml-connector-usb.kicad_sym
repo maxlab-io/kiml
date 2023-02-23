@@ -178,7 +178,7 @@
     (property "Value" "TYPE-C-31-M-12" (at 8.89 33.02 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12" (at 0 36.83 0)
+    (property "Footprint" "00-kiml-connector-usb:USB_C_Receptacle_HRO_TYPE-C-31-M-12" (at 0 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2205251630_Korean-Hroparts-Elec-TYPE-C-31-M-12_C165948.pdf" (at 0 25.4 0)
