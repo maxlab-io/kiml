@@ -4,7 +4,7 @@
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "AP62200TWU-7" (at 0 17.78 0)
-      (effects (font (size 1.27 1.27)))
+      (effects (font (size 1.27 1.27)) hide)
     )
     (property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6" (at 0 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -36,7 +36,7 @@
     (property "ki_keywords" "dc-dc switching regulator buck" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "TSOT-26 DC-DC Converters" (at 0 0 0)
+    (property "ki_description" "TSOT-26 DC-DC Converters 4.2V TO 18V INPUT, 2A LOW IQ SYNCHRONOUS BUCK CONVERTER" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "AP62200TWU-7_0_0"
@@ -109,7 +109,7 @@
     (property "ki_keywords" "DC-DC converter adjustable" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "Boost type 1 Boost 28V 2V~24V 1.2MHz SOT-23-6 DC-DC Converters ROHS\n" (at 0 0 0)
+    (property "ki_description" "Boost type 1 Boost 28V 2V~24V 1.2MHz SOT-23-6 DC-DC Converters ROHS" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "MT3608_0_1"
