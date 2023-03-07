@@ -6,7 +6,7 @@
     (property "Value" "LM358DR2G" (at -5.08 30.48 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "Package_SO:SOIC-8-N7_3.9x4.9mm_P1.27mm" (at -1.27 20.32 0)
+    (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (at -1.27 20.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" (at -1.27 22.86 0)
