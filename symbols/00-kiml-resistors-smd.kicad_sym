@@ -753,7 +753,7 @@
     (property "Value" "1R_2512_1W_25121WF100KT4E" (at 0 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "Resistor_SMD:R_1206_3216Metric" (at 0 27.94 0)
+    (property "Footprint" "Resistor_SMD:R_2512_6332Metric" (at 0 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206010216_UNI-ROYAL-Uniroyal-Elec-25121WF100KT4E_C11254.pdf" (at -2.54 33.02 0)
