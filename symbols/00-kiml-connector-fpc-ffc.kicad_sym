@@ -6,7 +6,7 @@
     (property "Value" "Conn_01x12_FPC_1mm_AFA01-S12FCA-00" (at 0 -21.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "00-kiml-connector-fpc-ffc:Jushuo_AFC01-S24FCC-00_1x24-1MP_P0.50_Horizontal" (at 0 26.67 0)
+    (property "Footprint" "00-kiml-connector-fpc-ffc:JUSHUO_AFA01-S12FCA-00" (at 0 26.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811021330_JUSHUO-AFA01-S12FCA-00_C262757.pdf" (at 1.27 22.86 0)
