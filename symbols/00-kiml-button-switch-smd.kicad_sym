@@ -204,7 +204,7 @@
     (property "SPN1" "C2888455" (at 0 -11.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LNK1" "https://jlcpcb.com/partdetail/XkbConnectivity-TS_1187A_B_AB/C318884" (at 0 -6.35 0)
+    (property "LNK1" "https://jlcpcb.com/partdetail/Bzcn-TSB008A2518A/C2888455" (at 0 -6.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "SNB1" "Extended Part" (at 0 -13.97 0)
@@ -213,7 +213,7 @@
     (property "ki_keywords" "switch normally-open pushbutton push-button Tactile Switches" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "3.5mm 2.5mm Rectangle button 50mA Brick nogging 6mm 12V SMD Tactile Switches" (at 0 0 0)
+    (property "ki_description" "50mA Brick nogging 12V SMD Tactile Switches" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "SW_PB_TSB008A2518A_0_1"
