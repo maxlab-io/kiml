@@ -34,7 +34,7 @@
           (xy 1.27 1.27)
           (xy -1.27 1.27)
         )
-        (stroke (width 0.25) (type default))
+        (stroke (width 0.3) (type default))
         (fill (type none))
       )
       (pin power_in line (at 0 0 90) (length 0) hide
@@ -78,7 +78,7 @@
           (xy 1.27 1.27)
           (xy -1.27 1.27)
         )
-        (stroke (width 0.25) (type default))
+        (stroke (width 0.3) (type default))
         (fill (type none))
       )
       (pin power_in line (at 0 0 90) (length 0) hide
@@ -122,7 +122,7 @@
           (xy 1.27 1.27)
           (xy -1.27 1.27)
         )
-        (stroke (width 0.25) (type default))
+        (stroke (width 0.3) (type default))
         (fill (type none))
       )
       (pin power_in line (at 0 0 90) (length 0) hide
@@ -166,7 +166,7 @@
           (xy 1.27 1.27)
           (xy -1.27 1.27)
         )
-        (stroke (width 0.25) (type default))
+        (stroke (width 0.3) (type default))
         (fill (type none))
       )
       (pin power_in line (at 0 0 90) (length 0) hide
@@ -210,7 +210,7 @@
           (xy 1.27 1.27)
           (xy -1.27 1.27)
         )
-        (stroke (width 0.25) (type default))
+        (stroke (width 0.3) (type default))
         (fill (type none))
       )
       (pin power_in line (at 0 0 90) (length 0) hide
@@ -254,7 +254,7 @@
           (xy 1.27 1.27)
           (xy -1.27 1.27)
         )
-        (stroke (width 0.25) (type default))
+        (stroke (width 0.3) (type default))
         (fill (type none))
       )
       (pin power_in line (at 0 0 90) (length 0) hide
