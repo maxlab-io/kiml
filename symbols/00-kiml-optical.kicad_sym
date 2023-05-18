@@ -409,7 +409,7 @@
     (property "LNK1" "https://lcsc.com/product-detail/Ambient-Light-Sensors_Lite-On-LTR-308ALS-01_C492382.html" (at -3.81 -25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "SPL2" "JLCPCB" (at 0 -31.75 0)
+    (property "SPL2" "JLCPCB" (at 0 -33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "SPN2" "C492382" (at 0 -38.1 0)
