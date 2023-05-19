@@ -1,5 +1,9 @@
 # KiML: KiCAD MAXLAB Library
 
+[![CC BY 4.0][cc-by-shield]][cc-by]
+
+![KIML in action](./doc/0009-kiml-in-action.png)
+
 KIML is a KiCAD library aimed at providing a decent tool for commercial hardware
 projects, where DFM and BOM management are crucial parts of the process.
 
@@ -87,27 +91,35 @@ Rest of the process is similar as with any other external KiCAD library:
 6. In the window appeared, navigate to a directory with recently downloaded KIML.
    Enter `footprints` directory. Select all footprints available:
 
-   ![Adding KIML symbols to a table](./doc/0004-adding-kiml-symbols-to-table.png)
+   ![Adding KIML footprints to a table](./doc/0007-adding-kiml-footprint-to-table.png)
 
 7. Same as with symbol libraries, observe a prefix is automatically added
    to all libraries in the table.
    If you don't observe the `${KIML_ROOT}` prefix there, please check the
    installation section to make sure `KIML_ROOT` is added to KiCAD.
 
-   ... pic
+   ![Checking KIML footprints in a table](./doc/0008-checking-kiml-footprints-in-a-table.png)
 
 
 All libraries are now added and you're ready to go. Open the schematic editor
 and enjoy adding atomic parts to your design!
 
-## Licesing, Owndership and Commercial Use
+## Licesing
 
-KIML is a property of [MAXLABIO INC.](http://maxlab.io).
+[![CC BY 4.0][cc-by-image]][cc-by]
 
-KIML is distributed under MIT license.
+The majority of files in KIML are licensed under
+[the Creative Commons Attribution 4.0 International License][cc-by].
 
-You're free to use KIML in any open or closed source projects without prior
-consent.
+Please note that some files within this project have different attribution
+requirements and may be subject to separate licenses.
+
+To view the list of files that require additional attribution, along with the
+necessary attributions and potential alternative licenses,
+please refer to [the attributions listing file](ATTRIBUTIONS.md).
+
+If you use or modify any part of this project, please ensure that you do not
+violate licenses and attributions as specified in corresponding files.
 
 ## How to Contribute
 
@@ -119,5 +131,13 @@ If you're willing to extend the library, feel free to open the pull request.
 You will be asked to sign [Developer Certificate of Origin](https://developercertificate.org/)
 in order for your commits to be processed.
 
+If authorship or/and custom licensing has to be preserved, please extend
+[the attributions listing file](ATTRIBUTIONS.md) correspondingly as a part of
+your PR.
+
 Please keep PRs small, one or two components at a time, since they're reviewed
 manually and it's tedious to process lots of parts at the same time.
+
+[cc-by]: http://creativecommons.org/licenses/by/4.0/
+[cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
+[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
