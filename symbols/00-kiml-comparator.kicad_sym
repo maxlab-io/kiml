@@ -76,7 +76,7 @@
     (property "Value" "WLCSP-6_ADCMP380" (at -1.27 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "00-footprints:WLCSP-6_2x3_1.0x1.5mm" (at 0 33.02 0)
+    (property "Footprint" "00-kiml-unsorted:WLCSP-6_2x3_1.0x1.5mm" (at 0 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADCMP380.pdf" (at 1.905 -37.465 0)

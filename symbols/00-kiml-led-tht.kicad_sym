@@ -6,7 +6,7 @@
     (property "Value" "D3.0mm_RG_WP3VEGW" (at 0 7.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "00-footprints:WP3VEGW" (at 0 -24.13 0)
+    (property "Footprint" "00-kiml-unsorted:WP3VEGW" (at 0 -24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 0 -21.59 0)

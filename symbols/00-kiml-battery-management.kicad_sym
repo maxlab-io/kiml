@@ -6,7 +6,7 @@
     (property "Value" "BQ24210DQCR" (at 13.97 -10.16 0)
       (effects (font (size 1 1)) hide)
     )
-    (property "Footprint" "00-footprints:WSON-10-1EP_2x3mm_P0.5mm_EP0.84x2.4mm" (at 0 24.13 0)
+    (property "Footprint" "00-kiml-unsorted:WSON-10-1EP_2x3mm_P0.5mm_EP0.84x2.4mm" (at 0 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.ti.com/lit/ds/symlink/bq24210.pdf" (at 1.27 21.59 0)

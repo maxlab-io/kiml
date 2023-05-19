@@ -441,7 +441,7 @@
     (property "Value" "USB_C_Receptacle_USB4085-GF-A" (at 8.89 -43.18 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (property "Footprint" "00-footprints:GCT_USB4085-GF-A_REVA4" (at 0 -62.23 0)
+    (property "Footprint" "00-kiml-unsorted:GCT_USB4085-GF-A_REVA4" (at 0 -62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://gct.co/files/drawings/usb4085.pdf" (at 0 -54.61 0)

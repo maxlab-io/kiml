@@ -81,7 +81,7 @@
     (property "Value" "SW_PB_PTS645VH83-2" (at 0 -3.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "00-footprints:PTS645VH83-2_LFS" (at 1.27 -19.05 0)
+    (property "Footprint" "00-kiml-unsorted:PTS645VH83-2_LFS" (at 1.27 -19.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 0 5.08 0)

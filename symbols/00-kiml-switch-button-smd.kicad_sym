@@ -108,7 +108,7 @@
     (property "Value" "SW{slash}PB{slash}SMD" (at 0 -3.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "00-footprints:ALPSALPINE SKSHAAE010" (at 0 5.08 0)
+    (property "Footprint" "00-kiml-unsorted:ALPSALPINE SKSHAAE010" (at 0 5.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 0 5.08 0)
