@@ -2,13 +2,13 @@
 
 [![CC BY 4.0][cc-by-shield]][cc-by]
 
-![KIML in action](./doc/0009-kiml-in-action.png)
-
 KIML is a KiCAD library aimed at providing a decent tool for commercial hardware
 projects, where DFM and BOM management are crucial parts of the process.
 
 In KiML, every schematic symbol contains supplier information, some important
 data about the component it represents, an associated footprint and a 3D model.
+
+![KIML in action](./doc/0009-kiml-in-action.png)
 
 This concept, called the "atomic components", is viable for project phases beyond
 the prototyping, when parts supply and reuse are more important than exotic
