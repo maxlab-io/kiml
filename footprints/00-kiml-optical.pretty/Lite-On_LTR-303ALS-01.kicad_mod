@@ -45,7 +45,7 @@
   (pad "4" smd roundrect (at 0.9 0.65) (size 0.65 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp d1a18675-c056-42e4-bc6a-ba8b2c51cd5c))
   (pad "5" smd roundrect (at 0.9 0) (size 0.65 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp f67b5992-6361-40cf-9968-ac6412f19b7a))
   (pad "6" smd roundrect (at 0.9 -0.65) (size 0.65 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 930f666b-0d6d-4e8c-81ba-cf3e5bca3b28))
-  (model "${KIML_ROOT}/3d/LTR-303ALS-01.stp"
+  (model "${KIMLP_ROOT}/3d/LTR-303ALS-01.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))

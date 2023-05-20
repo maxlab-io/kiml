@@ -24,7 +24,7 @@
   (fp_line (start 2 2.4) (end -2 2.4) (layer "F.CrtYd") (width 0.05) (tstamp b4de63c4-d892-4d2b-b946-211da6024c02))
   (pad "1" thru_hole circle (at 0.5 0.625) (size 0.8 0.8) (drill 0.5) (layers *.Cu *.Mask) (tstamp c4b10e77-5759-4c77-8cdf-faf7f98b7e27))
   (pad "2" thru_hole circle (at 0.5 -0.625) (size 0.8 0.8) (drill 0.5) (layers *.Cu *.Mask) (tstamp 8d18c564-6b26-43b0-b818-b6d7d3a79aa4))
-  (model "${KIML_ROOT}/3d/00-kiml-connector-amphenol.3dshapes/10114829-xxx02lfc.stp"
+  (model "${KIMLP_ROOT}/3d/00-kiml-connector-amphenol.3dshapes/10114829-xxx02lfc.stp"
     (offset (xyz 0 0 2))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))

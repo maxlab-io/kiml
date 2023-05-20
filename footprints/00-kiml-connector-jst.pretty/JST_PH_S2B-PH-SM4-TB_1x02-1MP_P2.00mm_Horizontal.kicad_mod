@@ -49,7 +49,7 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model "${KIML_ROOT}/3d/00-kiml-connector-jst.3dshapes/S2B-PH-SM4-TB(LF)(SN)--3DModel-STEP-56544.STEP"
+  (model "${KIMLP_ROOT}/3d/00-kiml-connector-jst.3dshapes/S2B-PH-SM4-TB(LF)(SN)--3DModel-STEP-56544.STEP"
     (offset (xyz 0 -4.5 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

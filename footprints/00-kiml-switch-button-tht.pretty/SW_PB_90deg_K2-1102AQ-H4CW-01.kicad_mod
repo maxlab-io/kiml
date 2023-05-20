@@ -47,7 +47,7 @@
   (pad "" np_thru_hole circle (at 3.6 -2.5 180) (size 1.7 1.7) (drill 1.4) (layers "F&B.Cu" "*.Mask") (tstamp 077dc304-b1f4-4ae8-a54f-9c9e8343473c))
   (pad "1" thru_hole circle (at -2.25 0 180) (size 1.7 1.7) (drill 1.1) (layers "*.Cu" "*.Mask") (tstamp 041ac786-78e2-4a5e-b11b-c2c98a820804))
   (pad "2" thru_hole circle (at 2.25 0 180) (size 1.7 1.7) (drill 1.1) (layers "*.Cu" "*.Mask") (tstamp b0607db0-1764-4a75-8e38-651e781048cf))
-  (model "${KIML_ROOT}/3d/00-kiml-button-switch-tht.3dshapes/PTS645VH83-2LFS.stp"
+  (model "${KIMLP_ROOT}/3d/00-kiml-button-switch-tht.3dshapes/PTS645VH83-2LFS.stp"
     (offset (xyz 0 1 4))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 90 -180))

@@ -132,7 +132,7 @@
   (pad "10" smd rect (at 1.2422 -0.375001) (size 1.011199 0.5088) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 068dc9d6-58ec-443f-8c6e-4641ff2800b6))
   (pad "11" smd rect (at 1.2422 -1.124999) (size 1.011199 0.5088) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 0793e7be-8724-4676-93e4-59b24073fe88))
   (pad "12" smd rect (at 1.2422 -1.875) (size 1.011199 0.5088) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 05cebbb7-d910-4e36-b063-7258b6325be5))
-  (model "${KIML_ROOT}/3d/VL6180X_STM.step"
+  (model "${KIMLP_ROOT}/3d/VL6180X_STM.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

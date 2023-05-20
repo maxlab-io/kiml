@@ -47,7 +47,7 @@
   (pad "1" thru_hole circle (at 0.06 2.54) (size 1.44 1.44) (drill 0.8) (layers *.Cu *.Mask) (tstamp a48e2cf5-8540-41b0-bbf7-d441fc628c4d))
   (pad "2" thru_hole circle (at 2.6 0) (size 1.44 1.44) (drill 0.8) (layers *.Cu *.Mask) (tstamp 599b2c49-ae1b-4e97-bf3e-20f68a5468e6))
   (pad "3" thru_hole circle (at 0.06 -2.54) (size 1.44 1.44) (drill 0.8) (layers *.Cu *.Mask) (tstamp df86ffe5-e032-4707-888c-a76ce2f389b5))
-  (model "${KIML_ROOT}/3d/00-kiml-potentiometers-tht.3dshapes/FT-63EP50_(500).stp"
+  (model "${KIMLP_ROOT}/3d/00-kiml-potentiometers-tht.3dshapes/FT-63EP50_(500).stp"
     (offset (xyz 0.06 -0.04 5.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))

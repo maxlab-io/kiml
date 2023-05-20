@@ -90,7 +90,7 @@
   (fp_circle (center -2.1 3) (end -1.8 3.25) (layer "F.Fab") (width 0.1) (fill none) (tstamp fd79b769-fd6c-4e08-b7dd-339405b753d3))
   (pad "1" smd rect (at -4.95 0) (size 2.9 5.4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 062a63a9-a4c2-4ab0-978e-60e4f16b3fc1))
   (pad "2" smd rect (at 4.95 0) (size 2.9 5.4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 1c4e959e-2195-4400-ab1a-d6f13a78575d))
-  (model "${KIML_ROOT}/3d/00-kiml-inductor-smd.3dshapes/CDRN74.stp"
+  (model "${KIMLP_ROOT}/3d/00-kiml-inductor-smd.3dshapes/CDRN74.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1.6 1.4 1.6))
     (rotate (xyz -90 0 90))

@@ -84,17 +84,17 @@
       )
     )
   )
-  (model "${KIML_ROOT}/3d/00-kiml-optical.3dshapes/IRCUT.stp"
+  (model "${KIMLP_ROOT}/3d/00-kiml-optical.3dshapes/IRCUT.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))
   )
-  (model "${KIML_ROOT}/3d/00-kiml-optical.3dshapes/ov9655.stp" hide
+  (model "${KIMLP_ROOT}/3d/00-kiml-optical.3dshapes/ov9655.stp" hide
     (offset (xyz 0 -13 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model "${KIML_ROOT}/3d/00-kiml-optical.3dshapes/m12-120-lens.stp"
+  (model "${KIMLP_ROOT}/3d/00-kiml-optical.3dshapes/m12-120-lens.stp"
     (offset (xyz 16 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

@@ -177,7 +177,7 @@
   (pad "4" smd rect (at 27.925 0) (size 6.65 4.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 2878bd0a-a091-447e-ad60-0b1acb5e0eb7))
   (pad "5" smd rect (at 27.925 -11) (size 6.65 4.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 9a9894ab-634f-463e-a8eb-fa880bc98c27))
   (pad "6" smd rect (at -27.925 -11) (size 6.65 4.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 590f3eda-36d3-4530-b44c-abb0d39432c2))
-  (model "${KIML_ROOT}/3d/00-kiml-battery.3dshapes/BH-AAA-B5AA005.STEP"
+  (model "${KIMLP_ROOT}/3d/00-kiml-battery.3dshapes/BH-AAA-B5AA005.STEP"
     (offset (xyz -18 -15 13.5))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 180))

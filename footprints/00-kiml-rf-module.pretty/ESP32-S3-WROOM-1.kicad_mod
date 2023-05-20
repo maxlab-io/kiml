@@ -125,7 +125,7 @@
   (pad "41" thru_hole circle (at -0.8 3.86) (size 0.5 0.5) (drill 0.2) (layers *.Cu *.Mask) (tstamp d879bd0d-4ddc-47d8-b271-6ac1865b94d9))
   (pad "41" thru_hole circle (at -2.2 3.86) (size 0.5 0.5) (drill 0.2) (layers *.Cu *.Mask) (tstamp e74c08bc-50c2-477d-9b06-97310a1d390d))
   (pad "41" thru_hole circle (at -2.9 1.76 90) (size 0.5 0.5) (drill 0.2) (layers *.Cu *.Mask) (tstamp e8dee418-73fb-4299-a24a-c99fc506ec13))
-  (model "${KIML_ROOT}/3d/00-kiml-rf-module.3dshapes/ESP32-S3-WROOM.step"
+  (model "${KIMLP_ROOT}/3d/00-kiml-rf-module.3dshapes/ESP32-S3-WROOM.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

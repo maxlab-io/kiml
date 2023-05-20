@@ -39,17 +39,17 @@
   (pad "1" thru_hole rect (at -2.54 0 45) (size 1.524 1.524) (drill 0.762) (layers "*.Cu" "*.Mask") (tstamp de3b74bb-e413-452c-9923-d147954c5df2))
   (pad "2" thru_hole circle (at 0 2.54 45) (size 1.524 1.524) (drill 0.762) (layers "*.Cu" "*.Mask") (tstamp 2e80c871-311d-46fa-af77-c18839a7b892))
   (pad "3" thru_hole circle (at 2.54 0 45) (size 1.524 1.524) (drill 0.762) (layers "*.Cu" "*.Mask") (tstamp a4163b3a-0510-47f2-ab58-38f5d3730f7c))
-  (model "${KIML_ROOT}/3d/00-kiml-package-to-sot-tht.3dshapes/TO-5 6pin LD L3,0mm.stp" hide
+  (model "${KIMLP_ROOT}/3d/00-kiml-package-to-sot-tht.3dshapes/TO-5 6pin LD L3,0mm.stp" hide
     (offset (xyz 61 25.5 0))
     (scale (xyz 1.1 1.1 1))
     (rotate (xyz 0 0 45))
   )
-  (model "${KIML_ROOT}/3d/00-kiml-optical.3dshapes/BS612-PIR.step" hide
+  (model "${KIMLP_ROOT}/3d/00-kiml-optical.3dshapes/BS612-PIR.step" hide
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -45))
   )
-  (model "${KIML_ROOT}/3d/00-kiml-optical.3dshapes/pir_lens_PD05-12005_8308-4.step"
+  (model "${KIMLP_ROOT}/3d/00-kiml-optical.3dshapes/pir_lens_PD05-12005_8308-4.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 135))
