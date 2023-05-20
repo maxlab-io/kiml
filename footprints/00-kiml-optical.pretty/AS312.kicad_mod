@@ -44,12 +44,12 @@
     (scale (xyz 1.1 1.1 1))
     (rotate (xyz 0 0 45))
   )
-  (model "${KIMLP_ROOT}/3d/00-kiml-optical.3dshapes/BS612-PIR.step" hide
+  (model "${KIML_ROOT}/3d/00-kiml-optical.3dshapes/BS612-PIR.step" hide
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -45))
   )
-  (model "${KIMLP_ROOT}/3d/00-kiml-optical.3dshapes/pir_lens_PD05-12005_8308-4.step"
+  (model "${KIML_ROOT}/3d/00-kiml-optical.3dshapes/pir_lens_PD05-12005_8308-4.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 135))
