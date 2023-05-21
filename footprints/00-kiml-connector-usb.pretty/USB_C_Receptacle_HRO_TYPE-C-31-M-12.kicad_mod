@@ -68,7 +68,7 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model ":KIML_ROOT:3d/00-kiml-connector-usb.3dshapes/HRO_TYPE-C-31-M-12.step"
+  (model ":KIMLP_ROOT:3d/00-kiml-connector-usb.3dshapes/HRO_TYPE-C-31-M-12.step"
     (offset (xyz -4.45 -3.75 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
