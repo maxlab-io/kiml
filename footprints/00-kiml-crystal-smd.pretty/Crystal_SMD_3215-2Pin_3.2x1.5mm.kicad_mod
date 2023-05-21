@@ -42,7 +42,7 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model ":KIML_ROOT:3d/00-kiml-crystal-smd.3dshapes/FC-135.STEP"
+  (model ":KIMLP_ROOT:3d/00-kiml-crystal-smd.3dshapes/FC-135.STEP"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

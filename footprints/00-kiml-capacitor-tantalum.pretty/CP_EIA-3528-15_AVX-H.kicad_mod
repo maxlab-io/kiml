@@ -54,7 +54,7 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model ":KIML_ROOT:3d/00-kiml-capacitor-tantalum.3dshapes/B 3528-21.step"
+  (model ":KIMLP_ROOT:3d/00-kiml-capacitor-tantalum.3dshapes/B 3528-21.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -180))

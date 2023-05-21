@@ -113,7 +113,7 @@
   (pad "20" smd rect (at -12 8.71) (size 1.8 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 1bfa91cb-dd25-446f-bd9c-a317695ceefe))
   (pad "21" smd rect (at -12 11.25) (size 1.8 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 1ec1d45e-cb63-4ac4-993e-0c3bd194d876))
   (pad "22" smd rect (at -12 13.79) (size 1.8 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp b4cb86a3-f397-4725-8d9b-3125987f17a5))
-  (model ":KIML_ROOT:3d/00-kiml-rf-module.3dshapes/E22-900M30S.STEP"
+  (model ":KIMLP_ROOT:3d/00-kiml-rf-module.3dshapes/E22-900M30S.STEP"
     (offset (xyz 0 1.5 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

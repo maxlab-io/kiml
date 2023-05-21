@@ -184,7 +184,7 @@
   (pad "10" smd rect (at -7.3 3.2) (size 1.2 2.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 3db5f947-e9f3-42be-8471-b7da9c229c09))
   (pad "10" smd rect (at 7.3 -6.4) (size 1.6 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp b44cd4f1-28fe-4f05-ac5f-486e633d4457))
   (pad "10" smd rect (at 8.2 3.2) (size 1.2 2.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f093f2d4-f163-4fea-89c8-f781c4e10286))
-  (model ":KIML_ROOT:3d/00-kiml-connector-card.3dshapes/microsd_conn.step"
+  (model ":KIMLP_ROOT:3d/00-kiml-connector-card.3dshapes/microsd_conn.step"
     (offset (xyz 0.5 -0.5 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
