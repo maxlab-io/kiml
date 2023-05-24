@@ -43,7 +43,7 @@ to think it wouldn't work on Windows or MacOS.
 1. Download KIML into a directory of your choice:
 
    ```
-   git clone ...
+   git clone git@github.com:maxlab-io/kiml.git
    ```
 
 2. Open KiCAD.
