@@ -59,7 +59,7 @@
     (property "Value" "TESTPOINT_D2.54mm_THT_Keystone_5002" (at 0 -30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "00-kiml-misc:TestPoint_Keystone_5000-5004_Miniature" (at 5.08 0 0)
+    (property "Footprint" "00-kiml-unsorted:TestPoint_Keystone_5000-5004_Miniature" (at 5.08 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at -2.54 0 0)

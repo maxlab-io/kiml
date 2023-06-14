@@ -899,7 +899,7 @@
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "XC6206P302MR-3V" (at -10.16 17.78 0)
-      (effects (font (size 1.27 1.27)) (justify left))
+      (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 0 7.62 0)
       (effects (font (size 1.27 1.27) italic) hide)
