@@ -1343,7 +1343,7 @@
     (property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" (at 0 22.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2006301532_Yongyu-Photoelectric-SZYY1206B_C434440.pdf" (at 0 20.32 0)
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2106062036_Worldsemi-WS2812B-B-T_C2761795.pdf" (at 0 20.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "UserValue" "LED_RGB" (at 6.35 12.7 0)
