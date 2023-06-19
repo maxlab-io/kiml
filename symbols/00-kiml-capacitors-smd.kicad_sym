@@ -653,7 +653,7 @@
     (property "SNB1" "Extended Part" (at 0 -20.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Rating" "25V" (at -5.08 -1.27 0)
+    (property "Rating" "10V" (at -5.08 -1.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_keywords" "cap capacitor 10uF 0402" (at 0 0 0)
