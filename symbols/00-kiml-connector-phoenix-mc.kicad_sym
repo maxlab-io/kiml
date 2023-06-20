@@ -1,6 +1,6 @@
 (kicad_symbol_lib (version 20220914) (generator kicad_symbol_editor)
   (symbol "Conn-01x02_P3.81_WJ15EDGRC-3.81-2P" (pin_names hide) (in_bom yes) (on_board yes)
-    (property "Reference" "U" (at 0 7.62 0)
+    (property "Reference" "J" (at 0 7.62 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn-01x02_P3.81_WJ15EDGRC-3.81-2P" (at 0 22.86 0)

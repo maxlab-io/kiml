@@ -6,7 +6,7 @@
     (property "Value" "8P8C_RJ45_HR911105A" (at -12.7 36.83 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
-    (property "Footprint" "Connector_RJ:RJ45_Hanrun_HR911105A" (at -17.78 30.48 0)
+    (property "Footprint" "00-kiml-connector-rj:RJ45_Hanrun_HR911105A" (at -17.78 30.48 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811141815_HANRUN-Zhongshan-HanRun-Elec-HR911105A_C12074.pdf" (at -50.8 24.13 0)
