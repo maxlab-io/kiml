@@ -37,3 +37,9 @@
 * Author: [Алексей Перевозчиков](https://grabcad.com/0030f7ec23-1)
 * Link: [GrabCAD HANRUN HR911105A page](https://grabcad.com/library/hanrun-hr911105a-1)
 * License: [GrabCAD License](https://grabcad.com/terms)
+
+---
+
+* File: [3d/00-kiml-connector-phoenix-mc.3dshapes/pxc_1843075_03_00_MCD-1-5-2-G1-3-81_3D.stp](3d/00-kiml-connector-phoenix-mc.3dshapes/pxc_1843075_03_00_MCD-1-5-2-G1-3-81_3D.stp)
+* Author: Phoenix Contact
+* Link: https://www.phoenixcontact.com/en-ca/products/pcb-header-mcd-15-2-g1-381-1843075
