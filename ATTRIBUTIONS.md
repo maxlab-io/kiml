@@ -43,3 +43,11 @@
 * File: [3d/00-kiml-connector-phoenix-mc.3dshapes/pxc_1843075_03_00_MCD-1-5-2-G1-3-81_3D.stp](3d/00-kiml-connector-phoenix-mc.3dshapes/pxc_1843075_03_00_MCD-1-5-2-G1-3-81_3D.stp)
 * Author: Phoenix Contact
 * Link: https://www.phoenixcontact.com/en-ca/products/pcb-header-mcd-15-2-g1-381-1843075
+
+---
+
+* File: [3d/00-kiml-connector-rj.3dshapes/HANRUN HR911105A.stp](3d/00-kiml-connector-rj.3dshapes/HANRUN HR911105A.stp)
+* Author: [Bernd Giesecke](https://grabcad.com/bernd.giesecke-1)
+* Link: [GrabCAD E22-900M22S page](https://grabcad.com/library/e22-900m22s-1)
+* License: [GrabCAD License](https://grabcad.com/terms)
+
