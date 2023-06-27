@@ -493,7 +493,7 @@
     (property "Value" "RJ45-B-1*1" (at 0 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (at 0 29.21 0)
+    (property "Footprint" "00-kiml-connector-rj:RJ45_RJ45-B-1_1" (at 0 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811141116_BOOMELE-Boom-Precision-Elec-RJ45-B-1-1_C138392.pdf" (at -2.54 35.56 0)
