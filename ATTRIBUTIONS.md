@@ -51,3 +51,11 @@
 * Link: [GrabCAD E22-900M22S page](https://grabcad.com/library/e22-900m22s-1)
 * License: [GrabCAD License](https://grabcad.com/terms)
 
+
+---
+
+* File: [3d/00-kiml-connector-barrel-jack.3dshapes/DC_Power_Jack_PCB_Mounted_2.1mm.step)
+* File: [3d/00-kiml-connector-barrel-jack.3dshapes/DC_Power_Jack_PCB_Mounted_2.1mm.wrl)
+* Author: [Jimmy Henry](https://grabcad.com/jimmi.henry-1)
+* Link: [GrabCAD DC Jack page](https://grabcad.com/library/arduino-dc-barrel-jack-2-1mm-for-kicad-1)
+* License: [GrabCAD License](https://grabcad.com/terms)

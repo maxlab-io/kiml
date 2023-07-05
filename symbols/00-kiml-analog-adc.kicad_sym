@@ -54,6 +54,10 @@
       )
     )
     (symbol "MCP3208-CI/SL_0_1"
+      (rectangle (start -12.7 10.16) (end 12.7 -12.7)
+        (stroke (width 0.254) (type default))
+        (fill (type background))
+      )
       (polyline
         (pts
           (xy -3.81 1.27)
@@ -108,10 +112,6 @@
         (stroke (width 0) (type default))
         (fill (type none))
       )
-      (rectangle (start 12.7 -12.7) (end -12.7 10.16)
-        (stroke (width 0.254) (type default))
-        (fill (type background))
-      )
     )
     (symbol "MCP3208-CI/SL_1_1"
       (pin input line (at -15.24 7.62 0) (length 2.54)
@@ -126,7 +126,7 @@
         (name "Din" (effects (font (size 1.27 1.27))))
         (number "11" (effects (font (size 1.27 1.27))))
       )
-      (pin output line (at 15.24 0 180) (length 2.54)
+      (pin tri_state line (at 15.24 0 180) (length 2.54)
         (name "Dout" (effects (font (size 1.27 1.27))))
         (number "12" (effects (font (size 1.27 1.27))))
       )
