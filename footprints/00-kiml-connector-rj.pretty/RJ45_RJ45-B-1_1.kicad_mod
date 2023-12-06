@@ -71,7 +71,7 @@
     (rotate (xyz -90 0 0))
   )
   (model ":KICAD7_3DMODEL_DIR:Connector_RJ.3dshapes/RJ45_Amphenol_RJHSE538X.step"
-    (offset (xyz 3.5 -1 -1))
+    (offset (xyz 3.5 -1 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -180))
   )
