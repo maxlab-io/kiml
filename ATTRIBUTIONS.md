@@ -33,7 +33,7 @@
 
 ---
 
-* File: [3d/00-kiml-connector-rj.3dshapes/HANRUN HR911105A.stp](3d/00-kiml-connector-rj.3dshapes/HANRUN HR911105A.stp)
+* File: [3d/00-kiml-connector-rj.3dshapes/HANRUN HR911105A.stp](<3d/00-kiml-connector-rj.3dshapes/HANRUN HR911105A.stp>)
 * Author: [Алексей Перевозчиков](https://grabcad.com/0030f7ec23-1)
 * Link: [GrabCAD HANRUN HR911105A page](https://grabcad.com/library/hanrun-hr911105a-1)
 * License: [GrabCAD License](https://grabcad.com/terms)
@@ -46,7 +46,7 @@
 
 ---
 
-* File: [3d/00-kiml-connector-rj.3dshapes/HANRUN HR911105A.stp](3d/00-kiml-connector-rj.3dshapes/HANRUN HR911105A.stp)
+* File: [3d/00-kiml-connector-rj.3dshapes/HANRUN HR911105A.stp](<3d/00-kiml-connector-rj.3dshapes/HANRUN HR911105A.stp>)
 * Author: [Bernd Giesecke](https://grabcad.com/bernd.giesecke-1)
 * Link: [GrabCAD E22-900M22S page](https://grabcad.com/library/e22-900m22s-1)
 * License: [GrabCAD License](https://grabcad.com/terms)
@@ -54,8 +54,15 @@
 
 ---
 
-* File: [3d/00-kiml-connector-barrel-jack.3dshapes/DC_Power_Jack_PCB_Mounted_2.1mm.step)
-* File: [3d/00-kiml-connector-barrel-jack.3dshapes/DC_Power_Jack_PCB_Mounted_2.1mm.wrl)
+* File: [3d/00-kiml-connector-barrel-jack.3dshapes/DC_Power_Jack_PCB_Mounted_2.1mm.step](3d/00-kiml-connector-barrel-jack.3dshapes/DC_Power_Jack_PCB_Mounted_2.1mm.step)
+* File: [3d/00-kiml-connector-barrel-jack.3dshapes/DC_Power_Jack_PCB_Mounted_2.1mm.wrl](3d/00-kiml-connector-barrel-jack.3dshapes/DC_Power_Jack_PCB_Mounted_2.1mm.wrl)
 * Author: [Jimmy Henry](https://grabcad.com/jimmi.henry-1)
 * Link: [GrabCAD DC Jack page](https://grabcad.com/library/arduino-dc-barrel-jack-2-1mm-for-kicad-1)
 * License: [GrabCAD License](https://grabcad.com/terms)
+
+---
+
+* File: [3d/00-kiml-connector-coaxial/MM8030-2610RK0--3DModel-STEP-56544.STEP](3d/00-kiml-connector-coaxial/MM8030-2610RK0--3DModel-STEP-56544.STEP)
+* Author/Link: [SnapEDA](https://www.snapeda.com/parts/MM8030-2610RK0/Murata%20Electronics/view-part/?welcome=home)
+* License: [CC BY-SA](https://creativecommons.org/licenses/by/4.0/) with the [Design Exception 1.0](https://www.snapeda.com/about/FAQ/#designexception)
+* See also: [SnapEDA licensing explanation](https://support.snapeda.com/en/articles/2957814-what-is-the-license-for-symbols-and-footprints)
