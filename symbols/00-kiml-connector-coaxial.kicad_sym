@@ -6,7 +6,7 @@
     (property "Value" "SWG_MM8030-2610RK0" (at 0 12.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (at 0 17.78 0)
+    (property "Footprint" "00-kiml-connector-coaxial:SWG_MM8030-2610RK0" (at 0 17.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2012231509_BAT-WIRELESS-BWIPX-1-001E_C496552.pdf" (at 0 10.16 0)
