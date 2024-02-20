@@ -2,7 +2,7 @@
   (layer "F.Cu")
   (descr "USB Type-C receptacle for USB 2.0 and PD, http://www.krhro.com/uploads/soft/180320/1-1P320120243.pdf")
   (tags "usb usb-c 2.0 pd")
-  (attr smd)
+  (attr through_hole)
   (fp_text reference "REF**" (at 0 -5.645) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp a144ce76-cc23-44fb-8108-bf18e64a4c3d)
