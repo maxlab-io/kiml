@@ -1,366 +1,1984 @@
-(kicad_symbol_lib (version 20220914) (generator kicad_symbol_editor)
-  (symbol "Conn-01x02_P2.5mm_X8821WR-02S-N0SN" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "J" (at 0 2.54 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Conn-01x02_P2.5mm_X8821WR-02S-N0SN" (at 0 11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "Connector_JST:JST_XH_S2B-XH-A-1_1x02_P2.50mm_Horizontal" (at 0 8.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110151730_XKB-Connectivity-X8821WR-02S-N0SN_C388739.pdf" (at 0 13.97 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "UserValue" "Conn_01x02" (at 0 5.08 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "MFR" "XKB Connectivity" (at 0 -10.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "X8821WR-02S-N0SN" (at -1.27 -12.7 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SPL1" "JLCPCB" (at 0 -17.78 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SPN1" "C388739" (at 0 -15.24 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LNK1" "https://jlcpcb.com/partdetail/XkbConnectivity-X8821WR_02SN0SN/C388739" (at 0 -7.62 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SNB1" "Extended Part" (at 0 -20.32 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "connector 2.5mm JST XH series" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "1x2 XH 1 2.5mm,P=2.5mm Wire To Board / Wire To Wire Connector ROHS horizontal" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "Connector*:*_1x??_*" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "Conn-01x02_P2.5mm_X8821WR-02S-N0SN_1_1"
-      (rectangle (start -1.27 -2.413) (end 0 -2.667)
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (rectangle (start -1.27 0.127) (end 0 -0.127)
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (rectangle (start -1.27 1.27) (end 1.27 -3.81)
-        (stroke (width 0.254) (type default))
-        (fill (type background))
-      )
-      (pin passive line (at -5.08 0 0) (length 3.81)
-        (name "Pin_1" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -5.08 -2.54 0) (length 3.81)
-        (name "Pin_2" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "Conn-01x02_P2mm_NONAME_JST-PH_C47647" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "J" (at 0 2.54 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Conn-01x02_P2mm_NONAME_JST-PH_C47647" (at 0 11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "00-kiml-connector-jst:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal" (at 0 8.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912111436_BOOMELE-Boom-Precision-Elec-C47647_C47647.pdf" (at 0 13.97 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "UserValue" "Conn_01x02" (at 0 5.08 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "MFR" "BOOMELE" (at 0 -10.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "C47647" (at -1.27 -12.7 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SPL1" "JLCPCB" (at 0 -17.78 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SPN1" "C47647" (at 0 -15.24 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LNK1" "https://jlcpcb.com/partdetail/boomele_boom_Precision_elec-C47647/C47647" (at 0 -7.62 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SNB1" "Extended Part" (at 0 -20.32 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "connector 2mm JST PH series" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "1x2P PH 1 2mm 2 SMD,P=2mm Wire To Board / Wire To Wire Connector ROHS" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "Connector*:*_1x??_*" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "Conn-01x02_P2mm_NONAME_JST-PH_C47647_1_1"
-      (rectangle (start -1.27 -2.413) (end 0 -2.667)
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (rectangle (start -1.27 0.127) (end 0 -0.127)
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (rectangle (start -1.27 1.27) (end 1.27 -3.81)
-        (stroke (width 0.254) (type default))
-        (fill (type background))
-      )
-      (pin passive line (at -5.08 0 0) (length 3.81)
-        (name "Pin_1" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -5.08 -2.54 0) (length 3.81)
-        (name "Pin_2" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "Conn-01x02_P2mm_S2B-PH-K-S_Horizontal" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "J" (at 0 2.54 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Conn-01x02_P2mm_S2B-PH-K-S_Horizontal" (at 0 -5.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" (at 0 8.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810261120_JST-Sales-America-S2B-PH-K-S-GW_C157932.pdf" (at -2.54 -29.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "UserValue" "Conn_01x02" (at 0 5.08 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "MFR" "JST" (at 0 -10.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "S2B-PH-K-S" (at -1.27 -12.7 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SPL1" "JLCPCB" (at 0 -17.78 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SPN1" "C157932" (at 0 -15.24 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LNK1" "https://jlcpcb.com/partdetail/Jst_SalesAmerica-S2B_PH_K_SGW/C157932" (at 0 -7.62 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SNB1" "Extended Part" (at 0 -20.32 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SPL2" "" (at 0 -24.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SPN2" "" (at 0 -34.29 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LNK2" "" (at -2.54 -31.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SNB2" "" (at 0 -26.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "connector 2mm" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "1x2P PH 1 2mm 2 Brass Push-Pull,P=2mm Wire To Board / Wire To Wire Connector ROHS" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "Connector*:*_1x??_*" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "Conn-01x02_P2mm_S2B-PH-K-S_Horizontal_1_1"
-      (rectangle (start -1.27 -2.413) (end 0 -2.667)
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (rectangle (start -1.27 0.127) (end 0 -0.127)
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (rectangle (start -1.27 1.27) (end 1.27 -3.81)
-        (stroke (width 0.254) (type default))
-        (fill (type background))
-      )
-      (pin passive line (at -5.08 0 0) (length 3.81)
-        (name "Pin_1" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -5.08 -2.54 0) (length 3.81)
-        (name "Pin_2" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "Conn-01x03_P2.5mm_B3B-XH-AM-BK" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "J" (at 0 2.54 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Conn-01x03_P2.5mm_B3B-XH-AM-BK" (at 0 -5.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "Connector_JST:JST_XH_B3B-XH-AM_1x03_P2.50mm_Vertical" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2007221005_JST-Sales-America-B3B-XH-AM-BK-LF-SN_C565985.pdf" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "UserValue" "Conn_JST_XH3" (at 0 3.81 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "MFR" "JST" (at 0 -10.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "B3B-XH-AM-BK(LF)(SN)" (at -1.27 -12.7 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SPL1" "LCSC" (at 0 -17.78 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SPN1" "C565985" (at 0 -15.24 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LNK1" "https://lcsc.com/product-detail/Wire-To-Board-Wire-To-Wire-Connector_span-style-background-color-ff0-JST-span-Sales-America-B3B-XH-AM-BK-LF-SN_C565985.html" (at 0 -7.62 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SPL2" "Digikey" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SPN2" "455-2248-ND" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LNK2" "https://www.digikey.com/en/products/detail/jst-sales-america-inc/B3B-XH-A-LF-SN/1651046" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "connector" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "Connector Header Through Hole 3 position 0.098\" (2.50mm)" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "Connector*:*_1x??_*" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "Conn-01x03_P2.5mm_B3B-XH-AM-BK_1_1"
-      (rectangle (start -1.27 -3.683) (end 0 -3.937)
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (rectangle (start -1.27 -1.143) (end 0 -1.397)
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (rectangle (start -1.27 1.397) (end 0 1.143)
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (rectangle (start -1.27 2.54) (end 1.27 -5.08)
-        (stroke (width 0.254) (type default))
-        (fill (type background))
-      )
-      (pin passive line (at -5.08 1.27 0) (length 3.81)
-        (name "Pin_1" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -5.08 -1.27 0) (length 3.81)
-        (name "Pin_2" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -5.08 -3.81 0) (length 3.81)
-        (name "Pin_3" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "Conn-01x03_P2.5mm_X8821WV-03-46SN" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "J" (at 2.54 0 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Conn-01x03_P2.5mm_X8821WV-03-46SN" (at 0 11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "Connector_JST:JST_XH_B3B-XH-AM_1x03_P2.50mm_Vertical" (at 0 8.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2209292030_XKB-Connectivity-X8821WV-03-46SN_C697005.pdf" (at 0 13.97 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "UserValue" "Conn_01x03" (at 0 5.08 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "MFR" "XKB Connectivity" (at 0 -10.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "X8821WV-03-46SN" (at -1.27 -12.7 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SPL1" "JLCPCB" (at 0 -17.78 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SPN1" "C697005" (at 0 -15.24 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LNK1" "https://jlcpcb.com/partdetail/XkbConnectivity-X8821WV_0346SN/C697005" (at 0 -7.62 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SNB1" "Extended Part" (at 0 -20.32 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "connector 2.5mm JST XH series" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "1x3P XH 1 2.5mm ,P=2.5mm Wire To Board / Wire To Wire Connector ROHS, vertical" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "Connector*:*_1x??_*" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "Conn-01x03_P2.5mm_X8821WV-03-46SN_1_1"
-      (rectangle (start -1.27 -2.413) (end 0 -2.667)
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (rectangle (start -1.27 0.127) (end 0 -0.127)
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (rectangle (start -1.27 2.667) (end 0 2.413)
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (rectangle (start -1.27 3.81) (end 1.27 -3.81)
-        (stroke (width 0.254) (type default))
-        (fill (type background))
-      )
-      (pin passive line (at -5.08 2.54 0) (length 3.81)
-        (name "Pin_1" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -5.08 0 0) (length 3.81)
-        (name "Pin_2" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -5.08 -2.54 0) (length 3.81)
-        (name "Pin_3" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
+(kicad_symbol_lib
+	(version 20231120)
+	(generator "kicad_symbol_editor")
+	(generator_version "8.0")
+	(symbol "Conn-01x02_P2.0mm_CS-1125R-02A1.7mm"
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn-01x02_P2.0mm_CS-1125R-02A1.7mm"
+			(at 0 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
+			(at 0 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1x2P 1 2mm Male pin 2 -40℃~+105℃ 2A Shrouded Push-Pull,P=2mm Wire To Board / Wire To Wire Connector, JST PH clone, black"
+			(at 0 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UserValue" "JST PH 02"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Color" "Black"
+			(at 0 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "CST"
+			(at 0 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CS-1125R-02A1.7mm"
+			(at 0 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPL1" "JLCPCB"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN1" "CS-1125R-02A1.7mm"
+			(at 0 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LNK1" "https://jlcpcb.com/partdetail/Cst-CS_1125R_02A17mm/C2886675"
+			(at 0 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNB1" "Extended Part"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "connector 2mm"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Conn-01x02_P2.0mm_CS-1125R-02A1.7mm_1_1"
+			(rectangle
+				(start -1.27 -2.413)
+				(end 0 -2.667)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 0.127)
+				(end 0 -0.127)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 1.27)
+				(end 1.27 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 3.81)
+				(name "Pin_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -2.54 0)
+				(length 3.81)
+				(name "Pin_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Conn-01x02_P2.0mm_NONAME_JST-PH_C47647"
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn-01x02_P2.0mm_NONAME_JST-PH_C47647"
+			(at 0 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "00-kiml-connector-jst:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912111436_BOOMELE-Boom-Precision-Elec-C47647_C47647.pdf"
+			(at 0 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1x2P PH 1 2mm 2 SMD,P=2mm Wire To Board / Wire To Wire Connector ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UserValue" "JST PH 02"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "BOOMELE"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C47647"
+			(at -1.27 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPL1" "JLCPCB"
+			(at 0 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN1" "C47647"
+			(at 0 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LNK1" "https://jlcpcb.com/partdetail/boomele_boom_Precision_elec-C47647/C47647"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNB1" "Extended Part"
+			(at 0 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "connector 2mm JST PH series"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Conn-01x02_P2.0mm_NONAME_JST-PH_C47647_1_1"
+			(rectangle
+				(start -1.27 -2.413)
+				(end 0 -2.667)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 0.127)
+				(end 0 -0.127)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 1.27)
+				(end 1.27 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 3.81)
+				(name "Pin_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -2.54 0)
+				(length 3.81)
+				(name "Pin_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Conn-01x02_P2.0mm_S2B-PH-K-S_Horizontal"
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn-01x02_P2.0mm_S2B-PH-K-S_Horizontal"
+			(at 0 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
+			(at 0 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810261120_JST-Sales-America-S2B-PH-K-S-GW_C157932.pdf"
+			(at 0 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1x2P PH 1 2mm 2 Brass Push-Pull,P=2mm Wire To Board / Wire To Wire Connector ROHS"
+			(at 0 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UserValue" "JST PH 02"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "JST"
+			(at 0 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "S2B-PH-K-S"
+			(at 0 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPL1" "JLCPCB"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN1" "C157932"
+			(at 0 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LNK1" "https://jlcpcb.com/partdetail/Jst_SalesAmerica-S2B_PH_K_SGW/C157932"
+			(at 0 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNB1" "Extended Part"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "connector 2mm"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Conn-01x02_P2.0mm_S2B-PH-K-S_Horizontal_1_1"
+			(rectangle
+				(start -1.27 -2.413)
+				(end 0 -2.667)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 0.127)
+				(end 0 -0.127)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 1.27)
+				(end 1.27 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 3.81)
+				(name "Pin_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -2.54 0)
+				(length 3.81)
+				(name "Pin_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Conn-01x02_P2.5mm_S2B-XH-A-BK(LF)(SN)"
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn-01x02_P2.5mm_S2B-XH-A-BK(LF)(SN)"
+			(at 0 20.32 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal"
+			(at 0 17.78 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1x2 XH 1 2.5mm,P=2.5mm Wire To Board / Wire To Wire Connector horizontal, black colored"
+			(at 0 12.7 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UserValue" "JST XH 02"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Color" "Black"
+			(at 0 15.24 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "JST"
+			(at 0 25.4 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "S2B-XH-A-BK(LF)(SN)"
+			(at 0 22.86 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPL1" "JLCPCB"
+			(at 0 -12.7 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN1" "C493111"
+			(at 0 -15.24 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LNK1" "https://jlcpcb.com/partdetail/Jst_SalesAmerica-S2B_XH_A_BK_LF_SN/C493111"
+			(at 0 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNB1" "Extended Part"
+			(at 0 -17.78 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "connector 2.5mm JST XH series color black"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Conn-01x02_P2.5mm_S2B-XH-A-BK(LF)(SN)_1_1"
+			(rectangle
+				(start -1.27 -2.413)
+				(end 0 -2.667)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 0.127)
+				(end 0 -0.127)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 1.27)
+				(end 1.27 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 3.81)
+				(name "Pin_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -2.54 0)
+				(length 3.81)
+				(name "Pin_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Conn-01x02_P2.5mm_X8821WR-02S-N0SN"
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn-01x02_P2.5mm_X8821WR-02S-N0SN"
+			(at 0 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_S2B-XH-A-1_1x02_P2.50mm_Horizontal"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110151730_XKB-Connectivity-X8821WR-02S-N0SN_C388739.pdf"
+			(at 0 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1x2 XH 1 2.5mm,P=2.5mm Wire To Board / Wire To Wire Connector ROHS horizontal"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UserValue" "Conn_01x02"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "XKB Connectivity"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "X8821WR-02S-N0SN"
+			(at -1.27 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPL1" "JLCPCB"
+			(at 0 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN1" "C388739"
+			(at 0 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LNK1" "https://jlcpcb.com/partdetail/XkbConnectivity-X8821WR_02SN0SN/C388739"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNB1" "Extended Part"
+			(at 0 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "connector 2.5mm JST XH series"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Conn-01x02_P2.5mm_X8821WR-02S-N0SN_1_1"
+			(rectangle
+				(start -1.27 -2.413)
+				(end 0 -2.667)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 0.127)
+				(end 0 -0.127)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 1.27)
+				(end 1.27 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 3.81)
+				(name "Pin_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -2.54 0)
+				(length 3.81)
+				(name "Pin_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Conn-01x03_P2.0mm_X2011WR-03A-N0SN"
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 2.54 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn-01x03_P2.0mm_X2011WR-03A-N0SN"
+			(at 0 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_S3B-PH-K_1x03_P2.00mm_Horizontal"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110111430_XKB-Connectivity-X2011WR-03A-N0SN_C571312.pdf"
+			(at 0 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1x3P PH 1 Tin 2mm Female 3 260℃ -25℃~+85℃ 3A Brass Right-Angle Push-Pull,P=2mm  Wire To Board / Wire To Wire Connector"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UserValue" "Conn_01x03"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "XKB"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "X2011WR-03A-N0SN"
+			(at -1.27 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPL1" "JLCPCB"
+			(at 0 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN1" "C571312"
+			(at 0 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LNK1" "https://jlcpcb.com/partdetail/XkbConnectivity-X2011WR_03AN0SN/C571312"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNB1" "Extended Part"
+			(at 0 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "connector 2.0mm JST PH series analog"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Conn-01x03_P2.0mm_X2011WR-03A-N0SN_1_1"
+			(rectangle
+				(start -1.27 -2.413)
+				(end 0 -2.667)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 0.127)
+				(end 0 -0.127)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 2.667)
+				(end 0 2.413)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 3.81)
+				(end 1.27 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -5.08 2.54 0)
+				(length 3.81)
+				(name "Pin_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 3.81)
+				(name "Pin_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -2.54 0)
+				(length 3.81)
+				(name "Pin_3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Conn-01x03_P2.5mm_B3B-XH-AM-BK"
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn-01x03_P2.5mm_B3B-XH-AM-BK"
+			(at 0 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-AM_1x03_P2.50mm_Vertical"
+			(at 0 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2007221005_JST-Sales-America-B3B-XH-AM-BK-LF-SN_C565985.pdf"
+			(at 0 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector Header Through Hole 3 position 0.098\" (2.50mm)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UserValue" "Conn_JST_XH3"
+			(at 0 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "JST"
+			(at 0 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "B3B-XH-AM-BK(LF)(SN)"
+			(at 0 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPL1" "LCSC"
+			(at 0 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN1" "C565985"
+			(at 0 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LNK1" "https://lcsc.com/product-detail/Wire-To-Board-Wire-To-Wire-Connector_span-style-background-color-ff0-JST-span-Sales-America-B3B-XH-AM-BK-LF-SN_C565985.html"
+			(at 0 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPL2" "Digikey"
+			(at 0 -25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN2" "455-2248-ND"
+			(at 0 -30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LNK2" "https://www.digikey.com/en/products/detail/jst-sales-america-inc/B3B-XH-A-LF-SN/1651046"
+			(at 0 -27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "connector"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Conn-01x03_P2.5mm_B3B-XH-AM-BK_1_1"
+			(rectangle
+				(start -1.27 -3.683)
+				(end 0 -3.937)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 -1.143)
+				(end 0 -1.397)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 1.397)
+				(end 0 1.143)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 2.54)
+				(end 1.27 -5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -5.08 1.27 0)
+				(length 3.81)
+				(name "Pin_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -1.27 0)
+				(length 3.81)
+				(name "Pin_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -3.81 0)
+				(length 3.81)
+				(name "Pin_3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Conn-01x03_P2.5mm_X2011WR-03A-N0SN_1"
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 2.54 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn-01x03_P2.5mm_X2508WR-03-N0SN"
+			(at 0 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_S3B-XH-A-1_1x03_P2.50mm_Horizontal"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1x3P 1 Tin 2.5mm Female 3 260℃ -25℃~+85℃ 3A Brass Right-Angle Push-Pull,P=2.5mm Wire To Board / Wire To Wire Connector "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UserValue" "Conn_01x03"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "XKB"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "X2508WR-03-N0SN"
+			(at -1.27 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPL1" "JLCPCB"
+			(at 0 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN1" "C697023"
+			(at 0 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LNK1" "https://jlcpcb.com/partdetail/XkbConnectivity-X2508WR_03N0SN/C697023"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNB1" "Extended Part"
+			(at 0 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "connector 2.5mm JST XH series analog"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Conn-01x03_P2.5mm_X2011WR-03A-N0SN_1_1_1"
+			(rectangle
+				(start -1.27 -2.413)
+				(end 0 -2.667)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 0.127)
+				(end 0 -0.127)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 2.667)
+				(end 0 2.413)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 3.81)
+				(end 1.27 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -5.08 2.54 0)
+				(length 3.81)
+				(name "Pin_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 3.81)
+				(name "Pin_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -2.54 0)
+				(length 3.81)
+				(name "Pin_3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Conn-01x03_P2.5mm_X8821WV-03-46SN"
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 2.54 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn-01x03_P2.5mm_X8821WV-03-46SN"
+			(at 0 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-AM_1x03_P2.50mm_Vertical"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2209292030_XKB-Connectivity-X8821WV-03-46SN_C697005.pdf"
+			(at 0 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1x3P XH 1 2.5mm ,P=2.5mm Wire To Board / Wire To Wire Connector ROHS, vertical"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UserValue" "Conn_01x03"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "XKB Connectivity"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "X8821WV-03-46SN"
+			(at -1.27 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPL1" "JLCPCB"
+			(at 0 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN1" "C697005"
+			(at 0 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LNK1" "https://jlcpcb.com/partdetail/XkbConnectivity-X8821WV_0346SN/C697005"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNB1" "Extended Part"
+			(at 0 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "connector 2.5mm JST XH series"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Conn-01x03_P2.5mm_X8821WV-03-46SN_1_1"
+			(rectangle
+				(start -1.27 -2.413)
+				(end 0 -2.667)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 0.127)
+				(end 0 -0.127)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 2.667)
+				(end 0 2.413)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 3.81)
+				(end 1.27 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -5.08 2.54 0)
+				(length 3.81)
+				(name "Pin_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 3.81)
+				(name "Pin_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -2.54 0)
+				(length 3.81)
+				(name "Pin_3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 )
