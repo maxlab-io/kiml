@@ -96,7 +96,7 @@
 				(hide yes)
 			)
 		)
-		(property "SPN1" "CS-1125R-02A1.7mm"
+		(property "SPN1" "C2886675"
 			(at 0 -15.24 0)
 			(effects
 				(font
