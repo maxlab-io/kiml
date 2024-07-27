@@ -1,1424 +1,4347 @@
-(kicad_symbol_lib (version 20220914) (generator kicad_symbol_editor)
-  (symbol "1.5u_1.5A_1008_LQM2HPN1R5MGHL" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "L" (at -1.27 0 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "1.5u_1.5A_1008_LQM2HPN1R5MGHL" (at 0 13.97 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "Inductor_SMD:L_1008_2520Metric" (at 1.27 -26.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2202010500_Murata-Electronics-LQM2HPN1R5MGHL_C2049909.pdf" (at -1.27 -11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "UserValue" "1.5u" (at 2.54 0 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Rating" "1.5A" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "DCR" "81m" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR" "Murata Electronics" (at -1.27 -16.51 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "LQM2HPN1R5MGHL" (at -2.54 -13.97 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SPL1" "LCSC" (at 0 -19.05 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SPN1" "C2049909" (at 0 -21.59 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LNK1" "https://lcsc.com/product-detail/Inductors-SMD_Murata-Electronics-LQM2HPN1R5MGHL_C2049909.html" (at 2.54 -24.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "inductor choke coil reactor magnetic 1.5u 2.6A" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "2.6A 1.5uH ±20% 1.5A 65mΩ 1008" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "1.5u_1.5A_1008_LQM2HPN1R5MGHL_0_1"
-      (arc (start 0 -2.54) (mid 0.6323 -1.905) (end 0 -1.27)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 -1.27) (mid 0.6323 -0.635) (end 0 0)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 0) (mid 0.6323 0.635) (end 0 1.27)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 1.27) (mid 0.6323 1.905) (end 0 2.54)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-    )
-    (symbol "1.5u_1.5A_1008_LQM2HPN1R5MGHL_1_1"
-      (pin passive line (at 0 3.81 270) (length 1.27)
-        (name "1" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -3.81 90) (length 1.27)
-        (name "2" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "1.5u_1.75A_1210_BRL3225T1R5M" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "L" (at -1.27 0 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "1.5u_1210_1.75A_54mOhm_20%" (at 0 13.97 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "Inductor_SMD:L_1210_3225Metric" (at 1.27 -26.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2202010500_Murata-Electronics-LQM2HPN1R5MGHL_C2049909.pdf" (at -1.27 -11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "UserValue" "1.5u" (at 2.54 0 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "DCR" "54m" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Rating" "1.75A" (at 0 0 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "MFR" "Taiyo Yuden" (at -1.27 -16.51 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "BRL3225T1R5M" (at -2.54 -13.97 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SPL1" "LCSC" (at 0 -19.05 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SPN1" "C454087" (at 0 -21.59 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LNK1" "https://lcsc.com/product-detail/Inductors-SMD_Taiyo-Yuden-BRL3225T1R5M_C454087.html" (at 2.54 -24.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "inductor choke coil reactor magnetic 1.5u 1210" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "1.75A 1.5uH ±20% 2.2A 54mΩ 1210 Inductors" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "1.5u_1.75A_1210_BRL3225T1R5M_0_1"
-      (arc (start 0 -2.54) (mid 0.6323 -1.905) (end 0 -1.27)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 -1.27) (mid 0.6323 -0.635) (end 0 0)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 0) (mid 0.6323 0.635) (end 0 1.27)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 1.27) (mid 0.6323 1.905) (end 0 2.54)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-    )
-    (symbol "1.5u_1.75A_1210_BRL3225T1R5M_1_1"
-      (pin passive line (at 0 3.81 270) (length 1.27)
-        (name "1" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -3.81 90) (length 1.27)
-        (name "2" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "1.5u_2A_0806_1286AS-H-1R5M=P2" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "L" (at -1.27 0 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "1.5u_2A_0806_1286AS-H-1R5M=P2" (at 0 13.97 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "Inductor_SMD:L_0805_2012Metric" (at 1.27 -26.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/P02/J(E)TE243A-0010_DFE201612C_reference.pdf" (at -1.27 -11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "UserValue" "1.5u" (at 2.54 0 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Rating" "2A" (at 7.62 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "DCR" "114m" (at 5.08 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR" "Murata" (at -1.27 -16.51 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "1286AS-H-1R5M=P2" (at -2.54 -13.97 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SPL1" "Digikey" (at 0 -19.05 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SPN1" "490-10604-1-ND" (at 0 -21.59 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LNK1" "https://www.digikey.com/en/products/detail/murata-electronics/1286AS-H-1R5M-P2/5247215" (at 2.54 -24.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "inductor choke coil reactor magnetic 1.5u 2A" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "1.5 µH Shielded Drum Core, Wirewound Inductor 2 A 114mOhm Max 0806 (2016 Metric)" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "1.5u_2A_0806_1286AS-H-1R5M=P2_0_1"
-      (arc (start 0 -2.54) (mid 0.6323 -1.905) (end 0 -1.27)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 -1.27) (mid 0.6323 -0.635) (end 0 0)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 0) (mid 0.6323 0.635) (end 0 1.27)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 1.27) (mid 0.6323 1.905) (end 0 2.54)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-    )
-    (symbol "1.5u_2A_0806_1286AS-H-1R5M=P2_1_1"
-      (pin passive line (at 0 3.81 270) (length 1.27)
-        (name "1" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -3.81 90) (length 1.27)
-        (name "2" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "1.5u_3.8A_3x3mm_IHLP1212BZER1R5M11" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "L" (at -1.27 0 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "1.5u_3.8A_3x3mm_IHLP1212BZER1R5M11" (at 0 13.97 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "Inductor_SMD:L_Vishay_IHLP-1212" (at 1.27 -26.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.vishay.com/docs/34289/lp12bz11.pdf" (at -1.27 -11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Rating" "3.8A" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "UserValue" "1.5u" (at 2.54 0 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "DCR" "32m" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR" "Vishay" (at -1.27 -16.51 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "IHLP1212BZER1R5M11" (at -2.54 -13.97 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SPL1" "Digikey" (at 0 -19.05 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SPN1" "541-1321-1-ND" (at 0 -21.59 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LNK1" "https://www.digikey.com/en/products/detail/vishay-dale/IHLP1212BZER1R5M11/2273370" (at 2.54 -24.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "inductor choke coil reactor magnetic 1.5u 3.8A" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "1.5 µH Shielded Molded Inductor 3.8A 32mOhm Max Nonstandard" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "1.5u_3.8A_3x3mm_IHLP1212BZER1R5M11_0_1"
-      (arc (start 0 -2.54) (mid 0.6323 -1.905) (end 0 -1.27)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 -1.27) (mid 0.6323 -0.635) (end 0 0)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 0) (mid 0.6323 0.635) (end 0 1.27)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 1.27) (mid 0.6323 1.905) (end 0 2.54)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-    )
-    (symbol "1.5u_3.8A_3x3mm_IHLP1212BZER1R5M11_1_1"
-      (pin passive line (at 0 3.81 270) (length 1.27)
-        (name "1" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -3.81 90) (length 1.27)
-        (name "2" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "10u_1.5A_4x4mm_SWPA4030S100MT" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "L" (at -1.27 0 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "10u_1.5A_4x4mm_SWPA4030S100MT" (at 0 13.97 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "00-kiml-inductor-smd:L_Sunlord_SWPA40xxS" (at 1.27 -26.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110091630_Sunlord-SWPA4030S100MT_C38117.pdf" (at 1.27 29.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "UserValue" "10u" (at 2.54 0 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Rating" "1.5A" (at 0 19.05 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "DCR" "130m" (at 0 16.51 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR" "Sunlord" (at 0 21.59 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "SWPA4030S100MT" (at 0 24.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SPL1" "JLCPCB" (at 0 -19.05 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SPN1" "C38117" (at 0 -21.59 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LNK1" "https://jlcpcb.com/partdetail/Sunlord-SWPA4030S100MT/C38117" (at 2.54 -24.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "inductor choke coil reactor magnetic" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "1.5A 10uH ±20% 130mΩ SMD Power Inductors ROHS" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "10u_1.5A_4x4mm_SWPA4030S100MT_0_1"
-      (arc (start 0 -2.54) (mid 0.6323 -1.905) (end 0 -1.27)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 -1.27) (mid 0.6323 -0.635) (end 0 0)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 0) (mid 0.6323 0.635) (end 0 1.27)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 1.27) (mid 0.6323 1.905) (end 0 2.54)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-    )
-    (symbol "10u_1.5A_4x4mm_SWPA4030S100MT_1_1"
-      (pin passive line (at 0 3.81 270) (length 1.27)
-        (name "1" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -3.81 90) (length 1.27)
-        (name "2" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "10u_170mA_0603_LBMF1608T100K" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "L" (at -1.27 0 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "10u_170mA_0603_LBMF1608T100K" (at 0 13.97 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "Inductor_SMD:L_0603_1608Metric" (at 1.27 -26.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811071031_Taiyo-Yuden-LBMF1608T100K_C87216.pdf" (at -1.27 -11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "UserValue" "10u" (at 2.54 0 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Rating" "170mA" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "DCR" "360m" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR" "Taiyo Yuden" (at -1.27 -16.51 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "LBMF1608T100K" (at -2.54 -13.97 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SPL1" "LCSC" (at 0 -19.05 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SPN1" "C87216" (at 0 -21.59 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LNK1" "https://lcsc.com/product-detail/Inductors-SMD_Taiyo-Yuden-LBMF1608T100K_C87216.html" (at 2.54 -24.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "inductor choke coil reactor magnetic" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "80mA 10uH ±10% 360mΩ 0603 Inductors (SMD) ROHS" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "10u_170mA_0603_LBMF1608T100K_0_1"
-      (arc (start 0 -2.54) (mid 0.6323 -1.905) (end 0 -1.27)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 -1.27) (mid 0.6323 -0.635) (end 0 0)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 0) (mid 0.6323 0.635) (end 0 1.27)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 1.27) (mid 0.6323 1.905) (end 0 2.54)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-    )
-    (symbol "10u_170mA_0603_LBMF1608T100K_1_1"
-      (pin passive line (at 0 3.81 270) (length 1.27)
-        (name "1" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -3.81 90) (length 1.27)
-        (name "2" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "15n_450mA_0402_LQG15HS15NJ02D" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "L" (at -1.27 0 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "15n_450mA_0402_LQG15HS15NJ02D" (at 0 13.97 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "Inductor_SMD:L_0402_1005Metric" (at 1.27 -26.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811081610_Murata-Electronics-LQG15HS15NJ02D_C86059.pdf" (at -1.27 -11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "UserValue" "15n" (at 2.54 0 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Rating" "450mA" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "DCR" "320m" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR" "Murata" (at -1.27 -16.51 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "LQG15HS15NJ02D" (at -2.54 -13.97 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SPL1" "LCSC" (at 0 -19.05 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SPN1" "C86059" (at 0 -21.59 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LNK1" "https://lcsc.com/product-detail/Inductors-SMD_Murata-Electronics-LQG15HS15NJ02D_C86059.html" (at 2.54 -24.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "inductor choke coil reactor magnetic" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "15nH ±5% 320mΩ 0402 Inductors (SMD) ROHS" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "15n_450mA_0402_LQG15HS15NJ02D_0_1"
-      (arc (start 0 -2.54) (mid 0.6323 -1.905) (end 0 -1.27)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 -1.27) (mid 0.6323 -0.635) (end 0 0)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 0) (mid 0.6323 0.635) (end 0 1.27)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 1.27) (mid 0.6323 1.905) (end 0 2.54)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-    )
-    (symbol "15n_450mA_0402_LQG15HS15NJ02D_1_1"
-      (pin passive line (at 0 3.81 270) (length 1.27)
-        (name "1" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -3.81 90) (length 1.27)
-        (name "2" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "15u_3.3A_12x12mm_SWRB1205S-150MT" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "L" (at -1.27 0 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "15u_3.3A_12x12mm_SWRB1205S-150MT" (at 0 13.97 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "00-kiml-inductor-smd:L_12x12mm_H6mm" (at 1.27 -26.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110092130_Sunlord-SWRB1205S-150MT_C169384.pdf" (at -1.27 -11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "UserValue" "15u" (at 2.54 0 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Rating" "3.3A" (at 0 19.05 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "DCR" "30m" (at 0 16.51 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR" "Sunlord" (at -1.27 -16.51 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "SWRB1205S-150MT" (at -2.54 -13.97 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SPL1" "JLCPCB" (at 0 -19.05 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SPN1" "C169384" (at 0 -21.59 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LNK1" "https://jlcpcb.com/partdetail/Sunlord-SWRB1205S150MT/C169384" (at 2.54 -24.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "inductor choke coil reactor magnetic 15uH" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "3.3A 15uH ±20% 30mΩ SMD Power Inductor" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "15u_3.3A_12x12mm_SWRB1205S-150MT_0_1"
-      (arc (start 0 -2.54) (mid 0.6323 -1.905) (end 0 -1.27)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 -1.27) (mid 0.6323 -0.635) (end 0 0)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 0) (mid 0.6323 0.635) (end 0 1.27)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 1.27) (mid 0.6323 1.905) (end 0 2.54)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-    )
-    (symbol "15u_3.3A_12x12mm_SWRB1205S-150MT_1_1"
-      (pin passive line (at 0 3.81 270) (length 1.27)
-        (name "1" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -3.81 90) (length 1.27)
-        (name "2" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "2.2u_1.8A_0806_CIGT201610LH2R2MNE" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "L" (at -1.27 0 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "2.2u_1.8A_0806_CIGT201610LH2R2MNE" (at 0 13.97 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder" (at 1.27 -26.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.vishay.com/docs/34289/lp12bz11.pdf" (at -1.27 -11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "UserValue" "2.2u" (at 2.54 0 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "DCR" "139m" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR" "Samsung" (at 0 -45.72 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "CIGT201610LH2R2MNE" (at 2.54 -38.1 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SPL2" "Digikey" (at 0 -43.18 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SPN2" "1276-6911-2-ND" (at 0 -35.56 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LNK2" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CIGT201610LH2R2MNE/7041233" (at 7.62 -40.64 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "inductor choke coil reactor magnetic 2.2u 1.8A" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "2.2 µH Unshielded Thin Film Inductor 1.8 A 139mOhm Max 0806 (2016 Metric)" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "2.2u_1.8A_0806_CIGT201610LH2R2MNE_0_1"
-      (arc (start 0 -2.54) (mid 0.6323 -1.905) (end 0 -1.27)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 -1.27) (mid 0.6323 -0.635) (end 0 0)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 0) (mid 0.6323 0.635) (end 0 1.27)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 1.27) (mid 0.6323 1.905) (end 0 2.54)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-    )
-    (symbol "2.2u_1.8A_0806_CIGT201610LH2R2MNE_1_1"
-      (pin passive line (at 0 3.81 270) (length 1.27)
-        (name "1" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -3.81 90) (length 1.27)
-        (name "2" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "2.2u_1.8A_0806_DFE201612E-2R2M=P2" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "L" (at -1.27 0 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "2.2u_1.8A_0806_DFE201612E-2R2M=P2" (at 0 13.97 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (at 1.27 -26.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912111437_Murata-Electronics-DFE201612E-2R2M-P2_C337893.pdf" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "UserValue" "2.2u" (at 3.81 0 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "DCR" "116m" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Rating" "1.8A" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR" "Murata Electronics" (at 0 -19.05 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "DFE201612E-2R2M=P2" (at 0 -29.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SPL1" "LCSC" (at 0 -24.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SPN1" "C337893" (at 0 -21.59 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LNK1" "https://www.lcsc.com/product-detail/Power-Inductors_Murata-Electronics-DFE201612E-2R2M-P2_C337893.html" (at 1.27 -31.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "inductor choke coil reactor magnetic" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "1.8A 2.2uH ±20% 2.4A 0806 Power Inductors" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "2.2u_1.8A_0806_DFE201612E-2R2M=P2_0_1"
-      (arc (start 0 -2.54) (mid 0.6323 -1.905) (end 0 -1.27)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 -1.27) (mid 0.6323 -0.635) (end 0 0)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 0) (mid 0.6323 0.635) (end 0 1.27)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 1.27) (mid 0.6323 1.905) (end 0 2.54)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-    )
-    (symbol "2.2u_1.8A_0806_DFE201612E-2R2M=P2_1_1"
-      (pin passive line (at 0 3.81 270) (length 1.27)
-        (name "1" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -3.81 90) (length 1.27)
-        (name "2" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "2.7n_300mA_0402_MLK1005S2N7ST000" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "L" (at -1.27 0 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "2.7n_300mA_0402_MLK1005S2N7ST000" (at 0 13.97 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "Inductor_SMD:L_0402_1005Metric" (at 1.27 -26.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810061612_TDK-MLK1005S2N7ST000_C76791.pdf" (at -1.27 -11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "UserValue" "2.7n" (at 2.54 0 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Rating" "300mA" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "DCR" "100m" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR" "TDK" (at -1.27 -16.51 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "MLK1005S2N7ST000" (at -2.54 -13.97 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SPL1" "LCSC" (at 0 -19.05 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SPN1" "C76791" (at 0 -21.59 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LNK1" "https://lcsc.com/product-detail/Inductors-SMD_TDK-MLK1005S2N7ST000_C76791.html" (at 2.54 -24.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "inductor choke coil reactor magnetic" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "500mA 2.7nH ±0.3nH 100mΩ 0402 Inductors (SMD) ROHS" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "2.7n_300mA_0402_MLK1005S2N7ST000_0_1"
-      (arc (start 0 -2.54) (mid 0.6323 -1.905) (end 0 -1.27)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 -1.27) (mid 0.6323 -0.635) (end 0 0)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 0) (mid 0.6323 0.635) (end 0 1.27)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 1.27) (mid 0.6323 1.905) (end 0 2.54)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-    )
-    (symbol "2.7n_300mA_0402_MLK1005S2N7ST000_1_1"
-      (pin passive line (at 0 3.81 270) (length 1.27)
-        (name "1" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -3.81 90) (length 1.27)
-        (name "2" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "22u_3.6A_12x12mm_CYH127-22UH" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "L" (at -1.27 0 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "22u_3.6A_12x12mm_CYH127-22UH" (at 0 13.97 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "Inductor_SMD:L_12x12mm_H8mm" (at 1.27 -26.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2201121400_SHOU-HAN-CYH127-22UH_C2929501.pdf" (at 1.27 29.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "UserValue" "22u" (at 2.54 0 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Rating" "3.6A" (at 0 19.05 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "DCR" "130m" (at 0 16.51 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR" "SHOU HAN" (at 0 21.59 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "CYH127-22UH" (at 0 24.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SPL1" "JLCPCB" (at 0 -19.05 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SPN1" "C2929501" (at 0 -21.59 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LNK1" "https://jlcpcb.com/partdetail/ShouHan-CYH12722UH/C2929501" (at 2.54 -24.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "inductor choke coil reactor magnetic" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "3.6A 22uH ±20% 43.2mΩ SMD-2P,12.3x12.3mm Inductors (SMD) ROHS" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "22u_3.6A_12x12mm_CYH127-22UH_0_1"
-      (arc (start 0 -2.54) (mid 0.6323 -1.905) (end 0 -1.27)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 -1.27) (mid 0.6323 -0.635) (end 0 0)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 0) (mid 0.6323 0.635) (end 0 1.27)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 1.27) (mid 0.6323 1.905) (end 0 2.54)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-    )
-    (symbol "22u_3.6A_12x12mm_CYH127-22UH_1_1"
-      (pin passive line (at 0 3.81 270) (length 1.27)
-        (name "1" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -3.81 90) (length 1.27)
-        (name "2" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "22u_620mA_1210_CBC3225T220KR" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "L" (at -1.27 0 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "22u_620mA_1210_CBC3225T220KR" (at 0 13.97 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "Inductor_SMD:L_1210_3225Metric" (at 1.27 -26.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912111437_Taiyo-Yuden-CBC3225T220KR_C223225.pdf" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "UserValue" "22u" (at 3.81 0 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Rating" "620mA" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "DCR" "270m" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR" "Taiyo Yuden" (at 0 -19.05 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "CBC3225T220KR" (at 0 -29.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SPL1" "LCSC" (at 0 -24.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SPN1" "C223225" (at 0 -21.59 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LNK1" "https://lcsc.com/product-detail/Inductors-SMD_Taiyo-Yuden-CBC3225T220KR_C223225.html" (at 1.27 -31.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SPL2" "Digikey" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SPN2" "587-1626-1-ND" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LNK2" "https://www.digikey.com/en/products/detail/taiyo-yuden/CBC3225T220MR/958012" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "inductor choke coil reactor magnetic 22u 620mA" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "22 µH Unshielded Drum Core, Wirewound Inductor 780 mA 351mOhm Max 1210 (3225 Metric)" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "22u_620mA_1210_CBC3225T220KR_0_1"
-      (arc (start 0 -2.54) (mid 0.6323 -1.905) (end 0 -1.27)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 -1.27) (mid 0.6323 -0.635) (end 0 0)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 0) (mid 0.6323 0.635) (end 0 1.27)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 1.27) (mid 0.6323 1.905) (end 0 2.54)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-    )
-    (symbol "22u_620mA_1210_CBC3225T220KR_1_1"
-      (pin passive line (at 0 3.81 270) (length 1.27)
-        (name "1" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -3.81 90) (length 1.27)
-        (name "2" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "3.9n_170mA_0402_LQP15MN3N9B02D" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "L" (at -1.27 0 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "3.9n_170mA_0402_LQP15MN3N9B02D" (at 0 13.97 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "Inductor_SMD:L_0402_1005Metric" (at 1.27 -26.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811081616_Murata-Electronics-LQP15MN3N9B02D_C77123.pdf" (at -1.27 -11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "DCR" "500m" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "UserValue" "3.9n" (at 2.54 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Rating" "170mA" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR" "Murata Electronics" (at -1.27 -16.51 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "LQP15MN3N9B02D" (at -2.54 -13.97 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SPL1" "LCSC" (at 0 -19.05 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SPN1" "C77123" (at 0 -21.59 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LNK1" "https://lcsc.com/product-detail/Inductors-SMD_Murata-Electronics-LQP15MN3N9B02D_C77123.html" (at 2.54 -24.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "inductor choke coil reactor magnetic" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "170mA 3.9nH ±0.1nH 500mΩ 0402 Inductors (SMD) ROHS" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "3.9n_170mA_0402_LQP15MN3N9B02D_0_1"
-      (arc (start 0 -2.54) (mid 0.6323 -1.905) (end 0 -1.27)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 -1.27) (mid 0.6323 -0.635) (end 0 0)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 0) (mid 0.6323 0.635) (end 0 1.27)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 1.27) (mid 0.6323 1.905) (end 0 2.54)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-    )
-    (symbol "3.9n_170mA_0402_LQP15MN3N9B02D_1_1"
-      (pin passive line (at 0 3.81 270) (length 1.27)
-        (name "1" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -3.81 90) (length 1.27)
-        (name "2" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "4.7n_300mA_0402_HBLS1005-4N7S" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "L" (at -1.27 0 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "4.7n_300mA_0402_HBLS1005-4N7S" (at 0 13.97 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "Inductor_SMD:L_0402_1005Metric" (at 1.27 -26.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2012171916_HYHONGYEX-HBLS1005-4N7S_C963987.pdf" (at -1.27 -11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "UserValue" "4.7n" (at 2.54 0 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Rating" "300m" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "DCR" "200m" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR" "HYHONGYEX" (at -1.27 -16.51 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "HBLS1005-4N7S" (at -2.54 -13.97 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SPL1" "JLCPCB" (at 0 -19.05 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SPN1" "C963987" (at 0 -21.59 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LNK1" "https://jlcpcb.com/partdetail/Hyhongyex-HBLS10054N7S/C963987" (at 2.54 -24.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "inductor choke coil reactor magnetic" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "300mA 4.7nH 0.2Ω 0402 Inductors" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "4.7n_300mA_0402_HBLS1005-4N7S_0_1"
-      (arc (start 0 -2.54) (mid 0.6323 -1.905) (end 0 -1.27)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 -1.27) (mid 0.6323 -0.635) (end 0 0)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 0) (mid 0.6323 0.635) (end 0 1.27)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 1.27) (mid 0.6323 1.905) (end 0 2.54)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-    )
-    (symbol "4.7n_300mA_0402_HBLS1005-4N7S_1_1"
-      (pin passive line (at 0 3.81 270) (length 1.27)
-        (name "1" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -3.81 90) (length 1.27)
-        (name "2" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "4.7u_2A_4x4mm_SWPA4030S4R7MT" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "L" (at -1.27 0 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "4.7u_2A_4x4mm_SWPA4030S4R7MT" (at 0 13.97 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "00-kiml-inductor-smd:L_Sunlord_SWPA40xxS" (at 1.27 -26.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110091630_Sunlord-SWPA4030S4R7MT_C57269.pdf" (at 1.27 29.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "UserValue" "4.7u" (at 2.54 0 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Rating" "2A" (at 0 19.05 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "DCR" "60m" (at 0 16.51 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR" "Sunlord" (at 0 21.59 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "SWPA4030S4R7MT" (at 0 24.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SPL1" "JLCPCB" (at 0 -19.05 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SPN1" "C57269" (at 0 -21.59 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LNK1" "https://jlcpcb.com/partdetail/Sunlord-SWPA4030S4R7MT/C57269" (at 2.54 -24.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "inductor choke coil reactor magnetic" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "2A 4.7uH ±20% 3.2A SMD Power Inductors" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "4.7u_2A_4x4mm_SWPA4030S4R7MT_0_1"
-      (arc (start 0 -2.54) (mid 0.6323 -1.905) (end 0 -1.27)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 -1.27) (mid 0.6323 -0.635) (end 0 0)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 0) (mid 0.6323 0.635) (end 0 1.27)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 1.27) (mid 0.6323 1.905) (end 0 2.54)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-    )
-    (symbol "4.7u_2A_4x4mm_SWPA4030S4R7MT_1_1"
-      (pin passive line (at 0 3.81 270) (length 1.27)
-        (name "1" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -3.81 90) (length 1.27)
-        (name "2" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "680n_5.1A_1008_252012CDMCDDS-R68MC" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "L" (at -1.27 0 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "680n_5.1A_1008_252012CDMCDDS-R68MC" (at 0 13.97 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "Inductor_SMD:L_1008_2520Metric" (at 1.27 -26.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110091630_Sunlord-SWPA4030S4R7MT_C57269.pdf" (at 1.27 29.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "UserValue" "680n" (at 2.54 0 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Rating" "5.4A" (at 0 19.05 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "DCR" "25m" (at 0 16.51 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR" "Sumida" (at 0 21.59 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "252012CDMCDDS-R68MC" (at 0 24.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SPL1" "JLCPCB" (at 0 -19.05 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SPN1" "C492726" (at 0 -21.59 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LNK1" "https://jlcpcb.com/partdetail/Sumida-252012CDMCDDSR68MC/C492726" (at 2.54 -24.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "inductor choke coil reactor magnetic" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "5.5A 680nH ±20% 5.4A 1008 Power Inductors" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "680n_5.1A_1008_252012CDMCDDS-R68MC_0_1"
-      (arc (start 0 -2.54) (mid 0.6323 -1.905) (end 0 -1.27)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 -1.27) (mid 0.6323 -0.635) (end 0 0)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 0) (mid 0.6323 0.635) (end 0 1.27)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 1.27) (mid 0.6323 1.905) (end 0 2.54)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-    )
-    (symbol "680n_5.1A_1008_252012CDMCDDS-R68MC_1_1"
-      (pin passive line (at 0 3.81 270) (length 1.27)
-        (name "1" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -3.81 90) (length 1.27)
-        (name "2" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "FB_2A_0805_220R@100MHz_BLM21PG221SN1D" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "L" (at -1.27 0 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "FB_2A_0805_220R@100MHz_BLM21PG221SN1D" (at 0 15.24 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (at 0 17.78 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "UserValue" "220R@100 MHz" (at 3.81 0 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Rating" "2A" (at 6.35 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MFR" "Murata Electronics" (at 0 20.32 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "BLM21PG221SN1D" (at 0 -29.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SPL1" "JLCPCB" (at 0 -24.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SPN1" "C85840" (at 0 -21.59 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LNK1" "https://jlcpcb.com/partdetail/MurataElectronics-BLM21PG221SN1D/C85840" (at 1.27 -31.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "inductor choke coil reactor magnetic" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "Inductor 2A 1 45mΩ 220Ω@100MHz ±25% 0805 Ferrite Beads" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "FB_2A_0805_220R@100MHz_BLM21PG221SN1D_0_1"
-      (arc (start 0 -2.54) (mid 0.6323 -1.905) (end 0 -1.27)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 -1.27) (mid 0.6323 -0.635) (end 0 0)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 0) (mid 0.6323 0.635) (end 0 1.27)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 1.27) (mid 0.6323 1.905) (end 0 2.54)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-    )
-    (symbol "FB_2A_0805_220R@100MHz_BLM21PG221SN1D_1_1"
-      (pin passive line (at 0 3.81 270) (length 1.27)
-        (name "1" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -3.81 90) (length 1.27)
-        (name "2" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "FB_300mA_0805_2k@100 MHz_HZ0805C202R-10" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "L" (at -1.27 0 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "FB_300mA_0805_2k@100 MHz_HZ0805C202R-10" (at 0 13.97 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (at 1.27 -26.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Laird%20Technologies/Ferrite_EMI_Cable_Cores.pdf" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "UserValue" "2k@100 MHz" (at 3.81 0 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "MFR1" "Laird-Signal Integrity Products" (at 0 -19.05 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN1" "HZ0805C202R-10" (at 0 -29.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SPL1" "Digikey" (at 0 -24.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SPN1" "240-2396-2-ND" (at 0 -21.59 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LNK1" "https://www.digikey.com/en/products/detail/laird-signal-integrity-products/HZ0805C202R-10/806635" (at 1.27 -31.75 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "inductor choke coil reactor magnetic" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "2 kOhms @ 100 MHz 1 Power, Signal Line Ferrite Bead 0805 (2012 Metric) 300mA 500mOhm" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "FB_300mA_0805_2k@100 MHz_HZ0805C202R-10_0_1"
-      (arc (start 0 -2.54) (mid 0.6323 -1.905) (end 0 -1.27)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 -1.27) (mid 0.6323 -0.635) (end 0 0)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 0) (mid 0.6323 0.635) (end 0 1.27)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 1.27) (mid 0.6323 1.905) (end 0 2.54)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-    )
-    (symbol "FB_300mA_0805_2k@100 MHz_HZ0805C202R-10_1_1"
-      (pin passive line (at 0 3.81 270) (length 1.27)
-        (name "1" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -3.81 90) (length 1.27)
-        (name "2" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
+(kicad_symbol_lib
+	(version 20231120)
+	(generator "kicad_symbol_editor")
+	(generator_version "8.0")
+	(symbol "1.5u_1.5A_1008_LQM2HPN1R5MGHL"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "L"
+			(at -1.27 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.5u_1.5A_1008_LQM2HPN1R5MGHL"
+			(at 0 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 1.27 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2202010500_Murata-Electronics-LQM2HPN1R5MGHL_C2049909.pdf"
+			(at -1.27 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2.6A 1.5uH ±20% 1.5A 65mΩ 1008"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UserValue" "1.5u"
+			(at 2.54 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "1.5A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DCR" "81m"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Murata Electronics"
+			(at -1.27 -16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LQM2HPN1R5MGHL"
+			(at -2.54 -13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPL1" "LCSC"
+			(at 0 -19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN1" "C2049909"
+			(at 0 -21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LNK1" "https://lcsc.com/product-detail/Inductors-SMD_Murata-Electronics-LQM2HPN1R5MGHL_C2049909.html"
+			(at 2.54 -24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "inductor choke coil reactor magnetic 1.5u 2.6A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "1.5u_1.5A_1008_LQM2HPN1R5MGHL_0_1"
+			(arc
+				(start 0 -2.54)
+				(mid 0.6323 -1.905)
+				(end 0 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -1.27)
+				(mid 0.6323 -0.635)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0)
+				(mid 0.6323 0.635)
+				(end 0 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 1.27)
+				(mid 0.6323 1.905)
+				(end 0 2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "1.5u_1.5A_1008_LQM2HPN1R5MGHL_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "1.5u_1.75A_1210_BRL3225T1R5M"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "L"
+			(at -1.27 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.5u_1210_1.75A_54mOhm_20%"
+			(at 0 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1210_3225Metric"
+			(at 1.27 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2202010500_Murata-Electronics-LQM2HPN1R5MGHL_C2049909.pdf"
+			(at -1.27 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.75A 1.5uH ±20% 2.2A 54mΩ 1210 Inductors"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UserValue" "1.5u"
+			(at 2.54 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DCR" "54m"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "1.75A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Taiyo Yuden"
+			(at -1.27 -16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BRL3225T1R5M"
+			(at -2.54 -13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPL1" "LCSC"
+			(at 0 -19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN1" "C454087"
+			(at 0 -21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LNK1" "https://lcsc.com/product-detail/Inductors-SMD_Taiyo-Yuden-BRL3225T1R5M_C454087.html"
+			(at 2.54 -24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "inductor choke coil reactor magnetic 1.5u 1210"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "1.5u_1.75A_1210_BRL3225T1R5M_0_1"
+			(arc
+				(start 0 -2.54)
+				(mid 0.6323 -1.905)
+				(end 0 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -1.27)
+				(mid 0.6323 -0.635)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0)
+				(mid 0.6323 0.635)
+				(end 0 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 1.27)
+				(mid 0.6323 1.905)
+				(end 0 2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "1.5u_1.75A_1210_BRL3225T1R5M_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "1.5u_2A_0806_1286AS-H-1R5M=P2"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "L"
+			(at -1.27 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.5u_2A_0806_1286AS-H-1R5M=P2"
+			(at 0 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+			(at 1.27 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/P02/J(E)TE243A-0010_DFE201612C_reference.pdf"
+			(at -1.27 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.5 µH Shielded Drum Core, Wirewound Inductor 2 A 114mOhm Max 0806 (2016 Metric)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UserValue" "1.5u"
+			(at 2.54 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "2A"
+			(at 7.62 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DCR" "114m"
+			(at 5.08 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Murata"
+			(at -1.27 -16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1286AS-H-1R5M=P2"
+			(at -2.54 -13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPL1" "Digikey"
+			(at 0 -19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN1" "490-10604-1-ND"
+			(at 0 -21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LNK1" "https://www.digikey.com/en/products/detail/murata-electronics/1286AS-H-1R5M-P2/5247215"
+			(at 2.54 -24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "inductor choke coil reactor magnetic 1.5u 2A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "1.5u_2A_0806_1286AS-H-1R5M=P2_0_1"
+			(arc
+				(start 0 -2.54)
+				(mid 0.6323 -1.905)
+				(end 0 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -1.27)
+				(mid 0.6323 -0.635)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0)
+				(mid 0.6323 0.635)
+				(end 0 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 1.27)
+				(mid 0.6323 1.905)
+				(end 0 2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "1.5u_2A_0806_1286AS-H-1R5M=P2_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "1.5u_3.8A_3x3mm_IHLP1212BZER1R5M11"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "L"
+			(at -1.27 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.5u_3.8A_3x3mm_IHLP1212BZER1R5M11"
+			(at 0 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_Vishay_IHLP-1212"
+			(at 1.27 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/34289/lp12bz11.pdf"
+			(at -1.27 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.5 µH Shielded Molded Inductor 3.8A 32mOhm Max Nonstandard"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "3.8A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UserValue" "1.5u"
+			(at 2.54 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DCR" "32m"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Vishay"
+			(at -1.27 -16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "IHLP1212BZER1R5M11"
+			(at -2.54 -13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPL1" "Digikey"
+			(at 0 -19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN1" "541-1321-1-ND"
+			(at 0 -21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LNK1" "https://www.digikey.com/en/products/detail/vishay-dale/IHLP1212BZER1R5M11/2273370"
+			(at 2.54 -24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "inductor choke coil reactor magnetic 1.5u 3.8A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "1.5u_3.8A_3x3mm_IHLP1212BZER1R5M11_0_1"
+			(arc
+				(start 0 -2.54)
+				(mid 0.6323 -1.905)
+				(end 0 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -1.27)
+				(mid 0.6323 -0.635)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0)
+				(mid 0.6323 0.635)
+				(end 0 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 1.27)
+				(mid 0.6323 1.905)
+				(end 0 2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "1.5u_3.8A_3x3mm_IHLP1212BZER1R5M11_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "10u_1.5A_4x4mm_SWPA4030S100MT"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "L"
+			(at -1.27 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10u_1.5A_4x4mm_SWPA4030S100MT"
+			(at 0 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "00-kiml-inductor-smd:L_Sunlord_SWPA40xxS"
+			(at 1.27 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110091630_Sunlord-SWPA4030S100MT_C38117.pdf"
+			(at 1.27 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.5A 10uH ±20% 130mΩ SMD Power Inductors ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UserValue" "10u"
+			(at 2.54 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "1.5A"
+			(at 0 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DCR" "130m"
+			(at 0 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Sunlord"
+			(at 0 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SWPA4030S100MT"
+			(at 0 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPL1" "JLCPCB"
+			(at 0 -19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN1" "C38117"
+			(at 0 -21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LNK1" "https://jlcpcb.com/partdetail/Sunlord-SWPA4030S100MT/C38117"
+			(at 2.54 -24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "inductor choke coil reactor magnetic"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "10u_1.5A_4x4mm_SWPA4030S100MT_0_1"
+			(arc
+				(start 0 -2.54)
+				(mid 0.6323 -1.905)
+				(end 0 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -1.27)
+				(mid 0.6323 -0.635)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0)
+				(mid 0.6323 0.635)
+				(end 0 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 1.27)
+				(mid 0.6323 1.905)
+				(end 0 2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "10u_1.5A_4x4mm_SWPA4030S100MT_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "10u_170mA_0603_LBMF1608T100K"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "L"
+			(at -1.27 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10u_170mA_0603_LBMF1608T100K"
+			(at 0 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+			(at 1.27 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811071031_Taiyo-Yuden-LBMF1608T100K_C87216.pdf"
+			(at -1.27 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "80mA 10uH ±10% 360mΩ 0603 Inductors (SMD) ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UserValue" "10u"
+			(at 2.54 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "170mA"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DCR" "360m"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Taiyo Yuden"
+			(at -1.27 -16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LBMF1608T100K"
+			(at -2.54 -13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPL1" "LCSC"
+			(at 0 -19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN1" "C87216"
+			(at 0 -21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LNK1" "https://lcsc.com/product-detail/Inductors-SMD_Taiyo-Yuden-LBMF1608T100K_C87216.html"
+			(at 2.54 -24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "inductor choke coil reactor magnetic"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "10u_170mA_0603_LBMF1608T100K_0_1"
+			(arc
+				(start 0 -2.54)
+				(mid 0.6323 -1.905)
+				(end 0 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -1.27)
+				(mid 0.6323 -0.635)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0)
+				(mid 0.6323 0.635)
+				(end 0 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 1.27)
+				(mid 0.6323 1.905)
+				(end 0 2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "10u_170mA_0603_LBMF1608T100K_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "15n_450mA_0402_LQG15HS15NJ02D"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "L"
+			(at -1.27 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "15n_450mA_0402_LQG15HS15NJ02D"
+			(at 0 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+			(at 1.27 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811081610_Murata-Electronics-LQG15HS15NJ02D_C86059.pdf"
+			(at -1.27 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "15nH ±5% 320mΩ 0402 Inductors (SMD) ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UserValue" "15n"
+			(at 2.54 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "450mA"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DCR" "320m"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Murata"
+			(at -1.27 -16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LQG15HS15NJ02D"
+			(at -2.54 -13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPL1" "LCSC"
+			(at 0 -19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN1" "C86059"
+			(at 0 -21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LNK1" "https://lcsc.com/product-detail/Inductors-SMD_Murata-Electronics-LQG15HS15NJ02D_C86059.html"
+			(at 2.54 -24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "inductor choke coil reactor magnetic"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "15n_450mA_0402_LQG15HS15NJ02D_0_1"
+			(arc
+				(start 0 -2.54)
+				(mid 0.6323 -1.905)
+				(end 0 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -1.27)
+				(mid 0.6323 -0.635)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0)
+				(mid 0.6323 0.635)
+				(end 0 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 1.27)
+				(mid 0.6323 1.905)
+				(end 0 2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "15n_450mA_0402_LQG15HS15NJ02D_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "15u_3.3A_12x12mm_SWRB1205S-150MT"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "L"
+			(at -1.27 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "15u_3.3A_12x12mm_SWRB1205S-150MT"
+			(at 0 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "00-kiml-inductor-smd:L_12x12mm_H6mm"
+			(at 1.27 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110092130_Sunlord-SWRB1205S-150MT_C169384.pdf"
+			(at -1.27 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3.3A 15uH ±20% 30mΩ SMD Power Inductor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UserValue" "15u"
+			(at 2.54 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "3.3A"
+			(at 0 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DCR" "30m"
+			(at 0 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Sunlord"
+			(at -1.27 -16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SWRB1205S-150MT"
+			(at -2.54 -13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPL1" "JLCPCB"
+			(at 0 -19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN1" "C169384"
+			(at 0 -21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LNK1" "https://jlcpcb.com/partdetail/Sunlord-SWRB1205S150MT/C169384"
+			(at 2.54 -24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "inductor choke coil reactor magnetic 15uH"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "15u_3.3A_12x12mm_SWRB1205S-150MT_0_1"
+			(arc
+				(start 0 -2.54)
+				(mid 0.6323 -1.905)
+				(end 0 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -1.27)
+				(mid 0.6323 -0.635)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0)
+				(mid 0.6323 0.635)
+				(end 0 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 1.27)
+				(mid 0.6323 1.905)
+				(end 0 2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "15u_3.3A_12x12mm_SWRB1205S-150MT_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "2.2u_1.8A_0806_CIGT201610LH2R2MNE"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "L"
+			(at -1.27 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2u_1.8A_0806_CIGT201610LH2R2MNE"
+			(at 0 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder"
+			(at 1.27 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/34289/lp12bz11.pdf"
+			(at -1.27 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2.2 µH Unshielded Thin Film Inductor 1.8 A 139mOhm Max 0806 (2016 Metric)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UserValue" "2.2u"
+			(at 2.54 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DCR" "139m"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Samsung"
+			(at 0 -45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CIGT201610LH2R2MNE"
+			(at 2.54 -38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPL2" "Digikey"
+			(at 0 -43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN2" "1276-6911-2-ND"
+			(at 0 -35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LNK2" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CIGT201610LH2R2MNE/7041233"
+			(at 7.62 -40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "inductor choke coil reactor magnetic 2.2u 1.8A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "2.2u_1.8A_0806_CIGT201610LH2R2MNE_0_1"
+			(arc
+				(start 0 -2.54)
+				(mid 0.6323 -1.905)
+				(end 0 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -1.27)
+				(mid 0.6323 -0.635)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0)
+				(mid 0.6323 0.635)
+				(end 0 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 1.27)
+				(mid 0.6323 1.905)
+				(end 0 2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "2.2u_1.8A_0806_CIGT201610LH2R2MNE_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "2.2u_1.8A_0806_DFE201612E-2R2M=P2"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "L"
+			(at -1.27 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2u_1.8A_0806_DFE201612E-2R2M=P2"
+			(at 0 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 1.27 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912111437_Murata-Electronics-DFE201612E-2R2M-P2_C337893.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.8A 2.2uH ±20% 2.4A 0806 Power Inductors"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UserValue" "2.2u"
+			(at 3.81 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DCR" "116m"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "1.8A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Murata Electronics"
+			(at 0 -19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DFE201612E-2R2M=P2"
+			(at 0 -29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPL1" "LCSC"
+			(at 0 -24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN1" "C337893"
+			(at 0 -21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LNK1" "https://www.lcsc.com/product-detail/Power-Inductors_Murata-Electronics-DFE201612E-2R2M-P2_C337893.html"
+			(at 1.27 -31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "inductor choke coil reactor magnetic"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "2.2u_1.8A_0806_DFE201612E-2R2M=P2_0_1"
+			(arc
+				(start 0 -2.54)
+				(mid 0.6323 -1.905)
+				(end 0 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -1.27)
+				(mid 0.6323 -0.635)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0)
+				(mid 0.6323 0.635)
+				(end 0 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 1.27)
+				(mid 0.6323 1.905)
+				(end 0 2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "2.2u_1.8A_0806_DFE201612E-2R2M=P2_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "2.7n_300mA_0402_MLK1005S2N7ST000"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "L"
+			(at -1.27 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.7n_300mA_0402_MLK1005S2N7ST000"
+			(at 0 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+			(at 1.27 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810061612_TDK-MLK1005S2N7ST000_C76791.pdf"
+			(at -1.27 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "500mA 2.7nH ±0.3nH 100mΩ 0402 Inductors (SMD) ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UserValue" "2.7n"
+			(at 2.54 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "300mA"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DCR" "100m"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "TDK"
+			(at -1.27 -16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MLK1005S2N7ST000"
+			(at -2.54 -13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPL1" "LCSC"
+			(at 0 -19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN1" "C76791"
+			(at 0 -21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LNK1" "https://lcsc.com/product-detail/Inductors-SMD_TDK-MLK1005S2N7ST000_C76791.html"
+			(at 2.54 -24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "inductor choke coil reactor magnetic"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "2.7n_300mA_0402_MLK1005S2N7ST000_0_1"
+			(arc
+				(start 0 -2.54)
+				(mid 0.6323 -1.905)
+				(end 0 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -1.27)
+				(mid 0.6323 -0.635)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0)
+				(mid 0.6323 0.635)
+				(end 0 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 1.27)
+				(mid 0.6323 1.905)
+				(end 0 2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "2.7n_300mA_0402_MLK1005S2N7ST000_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "22u_3.6A_12x12mm_CYH127-22UH"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "L"
+			(at -1.27 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22u_3.6A_12x12mm_CYH127-22UH"
+			(at 0 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_12x12mm_H8mm"
+			(at 1.27 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2201121400_SHOU-HAN-CYH127-22UH_C2929501.pdf"
+			(at 1.27 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3.6A 22uH ±20% 43.2mΩ SMD-2P,12.3x12.3mm Inductors (SMD) ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UserValue" "22u"
+			(at 2.54 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "3.6A"
+			(at 0 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DCR" "130m"
+			(at 0 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "SHOU HAN"
+			(at 0 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CYH127-22UH"
+			(at 0 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPL1" "JLCPCB"
+			(at 0 -19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN1" "C2929501"
+			(at 0 -21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LNK1" "https://jlcpcb.com/partdetail/ShouHan-CYH12722UH/C2929501"
+			(at 2.54 -24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "inductor choke coil reactor magnetic"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "22u_3.6A_12x12mm_CYH127-22UH_0_1"
+			(arc
+				(start 0 -2.54)
+				(mid 0.6323 -1.905)
+				(end 0 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -1.27)
+				(mid 0.6323 -0.635)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0)
+				(mid 0.6323 0.635)
+				(end 0 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 1.27)
+				(mid 0.6323 1.905)
+				(end 0 2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "22u_3.6A_12x12mm_CYH127-22UH_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "22u_620mA_1210_CBC3225T220KR"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "L"
+			(at -1.27 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22u_620mA_1210_CBC3225T220KR"
+			(at 0 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1210_3225Metric"
+			(at 1.27 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912111437_Taiyo-Yuden-CBC3225T220KR_C223225.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "22 µH Unshielded Drum Core, Wirewound Inductor 780 mA 351mOhm Max 1210 (3225 Metric)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UserValue" "22u"
+			(at 3.81 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "620mA"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DCR" "270m"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Taiyo Yuden"
+			(at 0 -19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CBC3225T220KR"
+			(at 0 -29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPL1" "LCSC"
+			(at 0 -24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN1" "C223225"
+			(at 0 -21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LNK1" "https://lcsc.com/product-detail/Inductors-SMD_Taiyo-Yuden-CBC3225T220KR_C223225.html"
+			(at 1.27 -31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPL2" "Digikey"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN2" "587-1626-1-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LNK2" "https://www.digikey.com/en/products/detail/taiyo-yuden/CBC3225T220MR/958012"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "inductor choke coil reactor magnetic 22u 620mA"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "22u_620mA_1210_CBC3225T220KR_0_1"
+			(arc
+				(start 0 -2.54)
+				(mid 0.6323 -1.905)
+				(end 0 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -1.27)
+				(mid 0.6323 -0.635)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0)
+				(mid 0.6323 0.635)
+				(end 0 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 1.27)
+				(mid 0.6323 1.905)
+				(end 0 2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "22u_620mA_1210_CBC3225T220KR_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "3.9n_170mA_0402_LQP15MN3N9B02D"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "L"
+			(at -1.27 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.9n_170mA_0402_LQP15MN3N9B02D"
+			(at 0 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+			(at 1.27 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811081616_Murata-Electronics-LQP15MN3N9B02D_C77123.pdf"
+			(at -1.27 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "170mA 3.9nH ±0.1nH 500mΩ 0402 Inductors (SMD) ROHS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DCR" "500m"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UserValue" "3.9n"
+			(at 2.54 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "170mA"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Murata Electronics"
+			(at -1.27 -16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LQP15MN3N9B02D"
+			(at -2.54 -13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPL1" "LCSC"
+			(at 0 -19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN1" "C77123"
+			(at 0 -21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LNK1" "https://lcsc.com/product-detail/Inductors-SMD_Murata-Electronics-LQP15MN3N9B02D_C77123.html"
+			(at 2.54 -24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "inductor choke coil reactor magnetic"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "3.9n_170mA_0402_LQP15MN3N9B02D_0_1"
+			(arc
+				(start 0 -2.54)
+				(mid 0.6323 -1.905)
+				(end 0 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -1.27)
+				(mid 0.6323 -0.635)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0)
+				(mid 0.6323 0.635)
+				(end 0 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 1.27)
+				(mid 0.6323 1.905)
+				(end 0 2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "3.9n_170mA_0402_LQP15MN3N9B02D_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "4.7n_300mA_0402_HBLS1005-4N7S"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "L"
+			(at -1.27 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7n_300mA_0402_HBLS1005-4N7S"
+			(at 0 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+			(at 1.27 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2012171916_HYHONGYEX-HBLS1005-4N7S_C963987.pdf"
+			(at -1.27 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "300mA 4.7nH 0.2Ω 0402 Inductors"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UserValue" "4.7n"
+			(at 2.54 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "300m"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DCR" "200m"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "HYHONGYEX"
+			(at -1.27 -16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "HBLS1005-4N7S"
+			(at -2.54 -13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPL1" "JLCPCB"
+			(at 0 -19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN1" "C963987"
+			(at 0 -21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LNK1" "https://jlcpcb.com/partdetail/Hyhongyex-HBLS10054N7S/C963987"
+			(at 2.54 -24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "inductor choke coil reactor magnetic"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "4.7n_300mA_0402_HBLS1005-4N7S_0_1"
+			(arc
+				(start 0 -2.54)
+				(mid 0.6323 -1.905)
+				(end 0 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -1.27)
+				(mid 0.6323 -0.635)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0)
+				(mid 0.6323 0.635)
+				(end 0 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 1.27)
+				(mid 0.6323 1.905)
+				(end 0 2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "4.7n_300mA_0402_HBLS1005-4N7S_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "4.7u_2A_4x4mm_SWPA4030S4R7MT"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "L"
+			(at -1.27 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7u_2A_4x4mm_SWPA4030S4R7MT"
+			(at 0 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "00-kiml-inductor-smd:L_Sunlord_SWPA40xxS"
+			(at 1.27 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110091630_Sunlord-SWPA4030S4R7MT_C57269.pdf"
+			(at 1.27 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2A 4.7uH ±20% 3.2A SMD Power Inductors"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UserValue" "4.7u"
+			(at 2.54 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "2A"
+			(at 0 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DCR" "60m"
+			(at 0 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Sunlord"
+			(at 0 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SWPA4030S4R7MT"
+			(at 0 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPL1" "JLCPCB"
+			(at 0 -19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN1" "C57269"
+			(at 0 -21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LNK1" "https://jlcpcb.com/partdetail/Sunlord-SWPA4030S4R7MT/C57269"
+			(at 2.54 -24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "inductor choke coil reactor magnetic"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "4.7u_2A_4x4mm_SWPA4030S4R7MT_0_1"
+			(arc
+				(start 0 -2.54)
+				(mid 0.6323 -1.905)
+				(end 0 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -1.27)
+				(mid 0.6323 -0.635)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0)
+				(mid 0.6323 0.635)
+				(end 0 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 1.27)
+				(mid 0.6323 1.905)
+				(end 0 2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "4.7u_2A_4x4mm_SWPA4030S4R7MT_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "680n_5.1A_1008_252012CDMCDDS-R68MC"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "L"
+			(at -1.27 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "680n_5.1A_1008_252012CDMCDDS-R68MC"
+			(at 0 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 1.27 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110091630_Sunlord-SWPA4030S4R7MT_C57269.pdf"
+			(at 1.27 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "5.5A 680nH ±20% 5.4A 1008 Power Inductors"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UserValue" "680n"
+			(at 2.54 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "5.4A"
+			(at 0 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DCR" "25m"
+			(at 0 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Sumida"
+			(at 0 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "252012CDMCDDS-R68MC"
+			(at 0 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPL1" "JLCPCB"
+			(at 0 -19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN1" "C492726"
+			(at 0 -21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LNK1" "https://jlcpcb.com/partdetail/Sumida-252012CDMCDDSR68MC/C492726"
+			(at 2.54 -24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "inductor choke coil reactor magnetic"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "680n_5.1A_1008_252012CDMCDDS-R68MC_0_1"
+			(arc
+				(start 0 -2.54)
+				(mid 0.6323 -1.905)
+				(end 0 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -1.27)
+				(mid 0.6323 -0.635)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0)
+				(mid 0.6323 0.635)
+				(end 0 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 1.27)
+				(mid 0.6323 1.905)
+				(end 0 2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "680n_5.1A_1008_252012CDMCDDS-R68MC_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "FB_2A_0805_220R@100MHz_BLM21PG221SN1D"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "L"
+			(at -1.27 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FB_2A_0805_220R@100MHz_BLM21PG221SN1D"
+			(at 0 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 0 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor 2A 1 45mΩ 220Ω@100MHz ±25% 0805 Ferrite Beads"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UserValue" "220R@100 MHz"
+			(at 3.81 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "2A"
+			(at 6.35 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Murata Electronics"
+			(at 0 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BLM21PG221SN1D"
+			(at 0 -29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPL1" "JLCPCB"
+			(at 0 -24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN1" "C85840"
+			(at 0 -21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LNK1" "https://jlcpcb.com/partdetail/MurataElectronics-BLM21PG221SN1D/C85840"
+			(at 1.27 -31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "inductor choke coil reactor magnetic"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "FB_2A_0805_220R@100MHz_BLM21PG221SN1D_0_1"
+			(arc
+				(start 0 -2.54)
+				(mid 0.6323 -1.905)
+				(end 0 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -1.27)
+				(mid 0.6323 -0.635)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0)
+				(mid 0.6323 0.635)
+				(end 0 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 1.27)
+				(mid 0.6323 1.905)
+				(end 0 2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "FB_2A_0805_220R@100MHz_BLM21PG221SN1D_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "FB_300mA_0805_2k@100 MHz_HZ0805C202R-10"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "L"
+			(at -1.27 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FB_300mA_0805_2k@100 MHz_HZ0805C202R-10"
+			(at 0 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 1.27 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Laird%20Technologies/Ferrite_EMI_Cable_Cores.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2 kOhms @ 100 MHz 1 Power, Signal Line Ferrite Bead 0805 (2012 Metric) 300mA 500mOhm"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UserValue" "2k@100 MHz"
+			(at 3.81 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR1" "Laird-Signal Integrity Products"
+			(at 0 -19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN1" "HZ0805C202R-10"
+			(at 0 -29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPL1" "Digikey"
+			(at 0 -24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN1" "240-2396-2-ND"
+			(at 0 -21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LNK1" "https://www.digikey.com/en/products/detail/laird-signal-integrity-products/HZ0805C202R-10/806635"
+			(at 1.27 -31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "inductor choke coil reactor magnetic"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "FB_300mA_0805_2k@100 MHz_HZ0805C202R-10_0_1"
+			(arc
+				(start 0 -2.54)
+				(mid 0.6323 -1.905)
+				(end 0 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -1.27)
+				(mid 0.6323 -0.635)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0)
+				(mid 0.6323 0.635)
+				(end 0 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 1.27)
+				(mid 0.6323 1.905)
+				(end 0 2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "FB_300mA_0805_2k@100 MHz_HZ0805C202R-10_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 )

@@ -1,91 +1,339 @@
-(kicad_symbol_lib (version 20220914) (generator kicad_symbol_editor)
-  (symbol "VL6180XV0NR" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-    (property "Reference" "U" (at 0 15.24 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Value" "VL6180XV0NR" (at 0 12.7 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Footprint" "00-kiml-misc:VL6180XV0NR_slash_1" (at 0 11.176 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2106070037_STMicroelectronics-VL6180XV0NR-1_C2688732.pdf" (at 0 2.54 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "MFR" "STMicroelectronics" (at -27.94 5.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "VL6180XV0NR/1" (at -27.94 5.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SPL1" "LCSC" (at -27.94 5.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SPN1" "C2688732" (at -27.94 5.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LNK1" "https://lcsc.com/product-detail/Ambient-Light-Sensors_STMicroelectronics-VL6180XV0NR-1_C2688732.html" (at 0 2.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "100mm ToF sensor + Ambient light sensor" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "VL6180X_STM VL6180X_STM-M VL6180X_STM-L" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "VL6180XV0NR_1_1"
-      (rectangle (start -20.32 10.16) (end 20.32 -12.7)
-        (stroke (width 0) (type default))
-        (fill (type background))
-      )
-      (pin bidirectional line (at -27.94 5.08 0) (length 7.62)
-        (name "GPIO1" (effects (font (size 1.4986 1.4986))))
-        (number "1" (effects (font (size 1.4986 1.4986))))
-      )
-      (pin power_in line (at 27.94 0 180) (length 7.62)
-        (name "AVDD" (effects (font (size 1.4986 1.4986))))
-        (number "10" (effects (font (size 1.4986 1.4986))))
-      )
-      (pin no_connect line (at 27.94 2.54 180) (length 7.62)
-        (name "NC" (effects (font (size 1.4986 1.4986))))
-        (number "11" (effects (font (size 1.4986 1.4986))))
-      )
-      (pin power_in line (at 27.94 5.08 180) (length 7.62)
-        (name "AVSS" (effects (font (size 1.4986 1.4986))))
-        (number "12" (effects (font (size 1.4986 1.4986))))
-      )
-      (pin no_connect line (at -5.08 2.54 0) (length 7.62) hide
-        (name "NC" (effects (font (size 1.4986 1.4986))))
-        (number "2" (effects (font (size 1.4986 1.4986))))
-      )
-      (pin no_connect line (at -27.94 2.54 0) (length 7.62)
-        (name "NC" (effects (font (size 1.4986 1.4986))))
-        (number "3" (effects (font (size 1.4986 1.4986))))
-      )
-      (pin bidirectional line (at -27.94 0 0) (length 7.62)
-        (name "GPIO0" (effects (font (size 1.4986 1.4986))))
-        (number "4" (effects (font (size 1.4986 1.4986))))
-      )
-      (pin input line (at -27.94 -2.54 0) (length 7.62)
-        (name "SCL" (effects (font (size 1.4986 1.4986))))
-        (number "5" (effects (font (size 1.4986 1.4986))))
-      )
-      (pin bidirectional line (at -27.94 -5.08 0) (length 7.62)
-        (name "SDA" (effects (font (size 1.4986 1.4986))))
-        (number "6" (effects (font (size 1.4986 1.4986))))
-      )
-      (pin no_connect line (at 27.94 -7.62 180) (length 7.62)
-        (name "NC" (effects (font (size 1.4986 1.4986))))
-        (number "7" (effects (font (size 1.4986 1.4986))))
-      )
-      (pin power_in line (at 27.94 -5.08 180) (length 7.62)
-        (name "AVDD_VCSEL" (effects (font (size 1.4986 1.4986))))
-        (number "8" (effects (font (size 1.4986 1.4986))))
-      )
-      (pin power_in line (at 27.94 -2.54 180) (length 7.62)
-        (name "AVSS_VCSEL" (effects (font (size 1.4986 1.4986))))
-        (number "9" (effects (font (size 1.4986 1.4986))))
-      )
-    )
-  )
+(kicad_symbol_lib
+	(version 20231120)
+	(generator "kicad_symbol_editor")
+	(generator_version "8.0")
+	(symbol "VL6180XV0NR"
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 15.24 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "VL6180XV0NR"
+			(at 0 12.7 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "00-kiml-misc:VL6180XV0NR_slash_1"
+			(at 0 11.176 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2106070037_STMicroelectronics-VL6180XV0NR-1_C2688732.pdf"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100mm ToF sensor + Ambient light sensor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "STMicroelectronics"
+			(at -27.94 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "VL6180XV0NR/1"
+			(at -27.94 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPL1" "LCSC"
+			(at -27.94 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN1" "C2688732"
+			(at -27.94 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LNK1" "https://lcsc.com/product-detail/Ambient-Light-Sensors_STMicroelectronics-VL6180XV0NR-1_C2688732.html"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "VL6180X_STM VL6180X_STM-M VL6180X_STM-L"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "VL6180XV0NR_1_1"
+			(rectangle
+				(start -20.32 10.16)
+				(end 20.32 -12.7)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin bidirectional line
+				(at -27.94 5.08 0)
+				(length 7.62)
+				(name "GPIO1"
+					(effects
+						(font
+							(size 1.4986 1.4986)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.4986 1.4986)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 27.94 0 180)
+				(length 7.62)
+				(name "AVDD"
+					(effects
+						(font
+							(size 1.4986 1.4986)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.4986 1.4986)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 27.94 2.54 180)
+				(length 7.62)
+				(name "NC"
+					(effects
+						(font
+							(size 1.4986 1.4986)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.4986 1.4986)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 27.94 5.08 180)
+				(length 7.62)
+				(name "AVSS"
+					(effects
+						(font
+							(size 1.4986 1.4986)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.4986 1.4986)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -5.08 2.54 0)
+				(length 7.62) hide
+				(name "NC"
+					(effects
+						(font
+							(size 1.4986 1.4986)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.4986 1.4986)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -27.94 2.54 0)
+				(length 7.62)
+				(name "NC"
+					(effects
+						(font
+							(size 1.4986 1.4986)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.4986 1.4986)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -27.94 0 0)
+				(length 7.62)
+				(name "GPIO0"
+					(effects
+						(font
+							(size 1.4986 1.4986)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.4986 1.4986)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -27.94 -2.54 0)
+				(length 7.62)
+				(name "SCL"
+					(effects
+						(font
+							(size 1.4986 1.4986)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.4986 1.4986)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -27.94 -5.08 0)
+				(length 7.62)
+				(name "SDA"
+					(effects
+						(font
+							(size 1.4986 1.4986)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.4986 1.4986)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 27.94 -7.62 180)
+				(length 7.62)
+				(name "NC"
+					(effects
+						(font
+							(size 1.4986 1.4986)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.4986 1.4986)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 27.94 -5.08 180)
+				(length 7.62)
+				(name "AVDD_VCSEL"
+					(effects
+						(font
+							(size 1.4986 1.4986)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.4986 1.4986)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 27.94 -2.54 180)
+				(length 7.62)
+				(name "AVSS_VCSEL"
+					(effects
+						(font
+							(size 1.4986 1.4986)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.4986 1.4986)
+						)
+					)
+				)
+			)
+		)
+	)
 )
