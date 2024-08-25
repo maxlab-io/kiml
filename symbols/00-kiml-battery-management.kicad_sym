@@ -719,7 +719,7 @@
 		)
 		(symbol "BQ25180YBGR_0_0"
 			(pin power_in line
-				(at -12.7 6.35 0)
+				(at -12.7 2.54 0)
 				(length 2.54)
 				(name "IN"
 					(effects
@@ -847,7 +847,7 @@
 		)
 		(symbol "BQ25180YBGR_1_0"
 			(pin open_emitter line
-				(at -12.7 2.54 0)
+				(at -12.7 6.35 0)
 				(length 2.54)
 				(name "~{INT}"
 					(effects
