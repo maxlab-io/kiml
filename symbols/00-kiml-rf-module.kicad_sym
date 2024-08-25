@@ -1105,7 +1105,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LoRa RFModule"
+		(property "Description" "SMD,24x38.5mm LoRa Modules ROHS"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1114,7 +1114,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Chengdu Ebyte"
+		(property "MFR" "Chengdu Ebyte Elec Tech"
 			(at 0 38.1 0)
 			(effects
 				(font
