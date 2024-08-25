@@ -2322,7 +2322,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps61022.pdf?ts=1685386819604"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps61022.pdf"
 			(at 0 25.4 0)
 			(effects
 				(font
@@ -2486,7 +2486,7 @@
 				)
 			)
 			(pin input line
-				(at -11.43 -6.35 0)
+				(at -11.43 -3.81 0)
 				(length 2.54)
 				(name "EN"
 					(effects
@@ -2504,7 +2504,7 @@
 				)
 			)
 			(pin input line
-				(at -11.43 -3.81 0)
+				(at -11.43 -6.35 0)
 				(length 2.54)
 				(name "MODE"
 					(effects
