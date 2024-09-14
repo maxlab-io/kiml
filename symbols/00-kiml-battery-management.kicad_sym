@@ -846,7 +846,7 @@
 			)
 		)
 		(symbol "BQ25180YBGR_1_0"
-			(pin open_emitter line
+			(pin output line
 				(at -12.7 6.35 0)
 				(length 2.54)
 				(name "~{INT}"
