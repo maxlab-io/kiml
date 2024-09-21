@@ -2918,6 +2918,26 @@
 				(hide yes)
 			)
 		)
+		(symbol "TPS61170DRVR_1_0"
+			(pin power_in line
+				(at 0 -12.7 90)
+				(length 2.54) hide
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
 		(symbol "TPS61170DRVR_1_1"
 			(rectangle
 				(start -7.62 10.16)
