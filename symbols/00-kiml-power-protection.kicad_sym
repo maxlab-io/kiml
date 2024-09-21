@@ -1446,7 +1446,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-882"
 			(at 0 16.51 0)
 			(effects
 				(font
@@ -1654,7 +1654,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-882"
 			(at 0 16.51 0)
 			(effects
 				(font
@@ -1862,7 +1862,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-882"
 			(at 0 16.51 0)
 			(effects
 				(font
