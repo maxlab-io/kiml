@@ -212,7 +212,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "e3559b5a-9750-4bdb-999f-44248d75d498")
 	)
-	(pad "C" smd roundrect
+	(pad "K" smd roundrect
 		(at -1.53 0)
 		(size 1.25 1.16)
 		(layers "F.Cu" "F.Paste" "F.Mask")
