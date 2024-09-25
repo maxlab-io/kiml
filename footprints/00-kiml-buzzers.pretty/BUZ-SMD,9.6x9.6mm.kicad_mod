@@ -1,0 +1,223 @@
+(footprint "BUZ-SMD,9.6x9.6mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "BUZ-SMD,9.6x9.6mm footprint")
+	(tags "BUZ-SMD,9.6x9.6mm footprint C391033")
+	(property "Reference" "REF**"
+		(at 0.000559 -7.08001 0)
+		(layer "F.SilkS")
+		(uuid "f43de63d-5afe-41eb-8eea-1e33cb602de3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "BUZ-SMD,9.6x9.6mm"
+		(at 0.000559 7.08001 0)
+		(layer "F.Fab")
+		(uuid "0dc91972-c652-4d28-9b0f-251e7e69d218")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d5f78525-b4ad-4aad-9902-526728e544a8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0abe1be3-c021-44e5-ac95-175bad1eb17e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "73c7fc94-40d5-4838-a525-c7664960e1e9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -5.079451 -3.302007)
+		(end -5.079451 -1.231928)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "985e451f-b828-4bad-b1d9-a190c4b4e938")
+	)
+	(fp_line
+		(start -5.079451 -3.302007)
+		(end -3.301448 -5.08001)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "972590b1-e7b4-4b24-a718-a898e80b7c94")
+	)
+	(fp_line
+		(start -5.079451 1.231928)
+		(end -5.079451 5.08001)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1d3b4177-662c-4acc-9f1a-90ae9e60727c")
+	)
+	(fp_line
+		(start -4.38095 2.413005)
+		(end -2.983947 2.413005)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "19dc684e-c504-439c-82ac-2efa10b06c63")
+	)
+	(fp_line
+		(start -3.301448 -5.08001)
+		(end 5.080569 -5.08001)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d8fb6f71-8b47-449d-9d4b-6e8a959c4483")
+	)
+	(fp_line
+		(start 2.858065 2.540005)
+		(end 4.255067 2.540005)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e58d87f4-218b-4173-a88e-e1a6dccf3622")
+	)
+	(fp_line
+		(start 3.556566 1.778004)
+		(end 3.556566 3.302007)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b0ca84f3-d962-4d62-9b85-450d4aa0cb02")
+	)
+	(fp_line
+		(start 5.080569 -5.08001)
+		(end 5.080569 -1.231166)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d83da179-86bf-482a-9c3d-8a827d99eeed")
+	)
+	(fp_line
+		(start 5.080569 1.231191)
+		(end 5.080569 5.08001)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "beb3c6b2-e62f-4aa8-a947-f976894cc969")
+	)
+	(fp_line
+		(start 5.080569 5.08001)
+		(end -5.079451 5.08001)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4a8a3430-85f8-4984-be07-e316599144a7")
+	)
+	(fp_circle
+		(center 0.00061 0)
+		(end 1.171552 0)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "9472c2e2-a978-407d-9199-7a0d0f13de47")
+	)
+	(fp_circle
+		(center 5.000102 -4.800102)
+		(end 5.030074 -4.800102)
+		(stroke
+			(width 0.059995)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "5b2151c7-9db3-44bc-9b36-31e00405142a")
+	)
+	(fp_text user "REF**"
+		(at 0.000559 9.08001 0)
+		(layer "F.Fab")
+		(uuid "c182098b-1af5-4d2c-836b-d3a5b8bd7c50")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 4.500483 0)
+		(size 3.5 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c2c9e4b4-494c-4529-91db-a8f3d5a15086")
+	)
+	(pad "2" smd rect
+		(at -4.500279 0)
+		(size 3.5 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ea6e42cb-fb41-4399-8789-c6eeefb40e8b")
+	)
+	(model "${KIML_ROOT}/3d/00-kiml-buzzers.3dshapes/BUZ-SMD,9.6x9.6mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
