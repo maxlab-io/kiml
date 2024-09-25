@@ -794,7 +794,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin tri_state line
 				(at -15.24 -5.08 0)
 				(length 2.54)
 				(name "MISO"
@@ -1325,7 +1325,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin tri_state line
 				(at -15.24 -5.08 0)
 				(length 2.54)
 				(name "MISO"
