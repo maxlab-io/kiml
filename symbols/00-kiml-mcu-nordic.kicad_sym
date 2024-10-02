@@ -2403,7 +2403,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_out line
 				(at 0 71.12 270)
 				(length 5.08) hide
 				(name "VDD"
