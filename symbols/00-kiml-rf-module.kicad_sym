@@ -8365,7 +8365,7 @@
 				)
 			)
 		)
-		(property "Value" "ST25R3911B-AQFT"
+		(property "Value" "ST25R3911B"
 			(at 10.16 26.67 0)
 			(effects
 				(font
@@ -8455,7 +8455,7 @@
 				(hide yes)
 			)
 		)
-		(property "UserValue" "ST25R3911B-AQFT"
+		(property "UserValue" "ST25R3911B"
 			(at 0 0 0)
 			(effects
 				(font
