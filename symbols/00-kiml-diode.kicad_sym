@@ -459,7 +459,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "  40V 600mV@1A 1A SOD-323 Schottky Barrier Diodes (SBD) ROHS"
+		(property "Description" "40V 600mV@1A 1A SOD-323 Schottky Barrier Diodes (SBD) ROHS"
 			(at 0 0 0)
 			(effects
 				(font
