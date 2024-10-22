@@ -1,278 +1,1052 @@
-(kicad_symbol_lib (version 20220914) (generator kicad_symbol_editor)
-  (symbol "Conn-01x02_DB2ERC-3.5-2P-GN" (pin_names hide) (in_bom yes) (on_board yes)
-    (property "Reference" "J" (at 0 7.62 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Conn-01x02_DB2ERC-3.5-2P-GN" (at 0 22.86 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "Connector_Phoenix_MC:PhoenixContact_MC_1,5_2-G-3.5_1x02_P3.50mm_Horizontal" (at 0 25.4 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912251632_Ningbo-Kangnex-Elec-WJ15EDGRC-3-81-2P_C8387.pdf" (at 0 20.32 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "UserValue" "Conn_01x02" (at 0 5.08 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "MFR" "DIBO" (at 0 27.94 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "DB2ERC-3.5-2P-GN" (at 0 17.78 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SPL1" "JLCPCB" (at 0 -15.24 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SPN1" "C395830" (at 0 -22.86 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LNK1" "https://jlcpcb.com/partdetail/Dibo-DB2ERC_3_5_2PGN/C395830" (at 0 -17.78 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SNB1" "Extended Part" (at 0 -20.32 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "terminal block phoenix mc 3.5mm 3.5" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "250V 10A 2 Bend -40℃~+105℃ 1 3.5mm 1x2P Green Board Edge/Receptacle-Close Push-Pull,P=3.5mm Pluggable System Terminal Block" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "Conn-01x02_DB2ERC-3.5-2P-GN_1_1"
-      (rectangle (start -1.27 -1.143) (end 0 -1.397)
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (rectangle (start -1.27 1.397) (end 0 1.143)
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (rectangle (start -1.27 2.54) (end 1.27 -2.54)
-        (stroke (width 0.254) (type default))
-        (fill (type background))
-      )
-      (pin passive line (at -5.08 1.27 0) (length 3.81)
-        (name "Pin_1" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -5.08 -1.27 0) (length 3.81)
-        (name "Pin_2" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "Conn-01x02_P3.81_WJ15EDGRC-3.81-2P" (pin_names hide) (in_bom yes) (on_board yes)
-    (property "Reference" "J" (at 0 7.62 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Conn-01x02_P3.81_WJ15EDGRC-3.81-2P" (at 0 22.86 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "Connector_Phoenix_MC:PhoenixContact_MC_1,5_2-G-3.81_1x02_P3.81mm_Horizontal" (at 0 25.4 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912251632_Ningbo-Kangnex-Elec-WJ15EDGRC-3-81-2P_C8387.pdf" (at 0 20.32 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "UserValue" "Conn_01x02" (at 0 5.08 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "MFR" "Ningbo" (at 0 27.94 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "WJ15EDGRC-3.81-2P" (at 0 17.78 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SPL1" "JLCPCB" (at 0 -15.24 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SPN1" "C8387" (at 0 -22.86 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LNK1" "https://jlcpcb.com/partdetail/Ningbo_KangnexElec-WJ15EDGRC_3_812P/C8387" (at 0 -17.78 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SNB1" "Extended Part" (at 0 -20.32 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "terminal block phoenix mc 3.81mm 3.81" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "2 Bend 1 3.81mm 1x2P Green Board Edge/Receptacle-Close Push-Pull,P=3.81mm Pluggable System Terminal Block" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "Conn-01x02_P3.81_WJ15EDGRC-3.81-2P_1_1"
-      (rectangle (start -1.27 -1.143) (end 0 -1.397)
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (rectangle (start -1.27 1.397) (end 0 1.143)
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (rectangle (start -1.27 2.54) (end 1.27 -2.54)
-        (stroke (width 0.254) (type default))
-        (fill (type background))
-      )
-      (pin passive line (at -5.08 1.27 0) (length 3.81)
-        (name "Pin_1" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -5.08 -1.27 0) (length 3.81)
-        (name "Pin_2" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "Conn-01x03_DB2ERC-3.5-3P-GN" (pin_names hide) (in_bom yes) (on_board yes)
-    (property "Reference" "J" (at 0 10.16 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Conn-01x03_DB2ERC-3.5-3P-GN" (at 0 22.86 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "Connector_Phoenix_MC:PhoenixContact_MC_1,5_3-G-3.5_1x03_P3.50mm_Horizontal" (at 0 25.4 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912251632_Ningbo-Kangnex-Elec-WJ15EDGRC-3-81-2P_C8387.pdf" (at 0 20.32 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "UserValue" "Conn_01x03" (at 0 7.62 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "MFR" "DIBO" (at 0 27.94 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "DB2ERC-3.5-3P-GN" (at 0 17.78 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SPL1" "JLCPCB" (at 0 -15.24 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SPN1" "C430551" (at 0 -22.86 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LNK1" "https://jlcpcb.com/partdetail/Dibo-DB2ERC_3_5_3PGN/C430551" (at 0 -17.78 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SNB1" "Extended Part" (at 0 -20.32 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "terminal block phoenix mc 3.5mm 3.5" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "250V 10A 2 Bend -40℃~+105℃ 1 3.5mm 1x2P Green Board Edge/Receptacle-Close Push-Pull,P=3.5mm Pluggable System Terminal Block" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "Conn-01x03_DB2ERC-3.5-3P-GN_1_1"
-      (rectangle (start 1.27 -2.413) (end 2.54 -2.667)
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (rectangle (start 1.27 0.127) (end 2.54 -0.127)
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (rectangle (start 1.27 2.667) (end 2.54 2.413)
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (rectangle (start 1.27 3.81) (end 3.81 -3.81)
-        (stroke (width 0.254) (type default))
-        (fill (type background))
-      )
-      (pin passive line (at -2.54 2.54 0) (length 3.81)
-        (name "Pin_1" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -2.54 0 0) (length 3.81)
-        (name "Pin_2" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -2.54 -2.54 0) (length 3.81)
-        (name "Pin_3" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "Conn-02x02_DB2ERH-3.81-2*2P-GN" (pin_names hide) (in_bom yes) (on_board yes)
-    (property "Reference" "J" (at 0 7.62 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Conn-02x02_DB2ERH-3.81-2*2P-GN" (at 0 22.86 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "00-kiml-connector-phoenix-mc:PhoenixContact_MC_1,5_2-G1-3.81_2x02_P3.81mm_Horizontal" (at 0 25.4 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2303271500_DIBO-DB2ERH-3-81-2-2P-GN_C779347.pdf" (at 0 20.32 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "UserValue" "Conn-02x02" (at 0 5.08 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "MFR" "DIBO" (at 0 27.94 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "DB2ERH-3.81-2*2P-GN" (at 0 17.78 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SPL1" "JLCPCB" (at 0 -15.24 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SPN1" "C779347" (at 0 -22.86 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LNK1" "https://jlcpcb.com/partdetail/Dibo-DB2ERH_3_81_2_2PGN/C779347" (at 0 -17.78 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SNB1" "Extended Part" (at 0 -20.32 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "terminal block phoenix mc 3.81mm 3.81" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "300V 8A 2 Bend -40℃~+105℃ 2 3.81mm 2x2P Green Board Edge/Receptacle-Close Push-Pull,P=3.81mm Pluggable System Terminal Block" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "Conn-02x02_DB2ERH-3.81-2*2P-GN_1_1"
-      (rectangle (start -2.54 -1.143) (end -1.27 -1.397)
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (rectangle (start -2.54 1.397) (end -1.27 1.143)
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (rectangle (start -2.54 2.54) (end 2.54 -2.54)
-        (stroke (width 0.254) (type default))
-        (fill (type background))
-      )
-      (rectangle (start 2.54 -1.143) (end 1.27 -1.397)
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (rectangle (start 2.54 1.397) (end 1.27 1.143)
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (pin passive line (at 6.35 1.27 180) (length 3.81)
-        (name "Pin_1b" (effects (font (size 1.27 1.27))))
-        (number "b1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 6.35 -1.27 180) (length 3.81)
-        (name "Pin_2b" (effects (font (size 1.27 1.27))))
-        (number "b2" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -6.35 1.27 0) (length 3.81)
-        (name "Pin_1a" (effects (font (size 1.27 1.27))))
-        (number "t1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -6.35 -1.27 0) (length 3.81)
-        (name "Pin_2a" (effects (font (size 1.27 1.27))))
-        (number "t2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
+(kicad_symbol_lib
+	(version 20231120)
+	(generator "kicad_symbol_editor")
+	(generator_version "8.0")
+	(symbol "Conn-01x02_DB2ERC-3.5-2P-GN"
+		(pin_names hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 0 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn-01x02_DB2ERC-3.5-2P-GN"
+			(at 0 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Phoenix_MC:PhoenixContact_MC_1,5_2-G-3.5_1x02_P3.50mm_Horizontal"
+			(at 0 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912251632_Ningbo-Kangnex-Elec-WJ15EDGRC-3-81-2P_C8387.pdf"
+			(at 0 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "250V 10A 2 Bend -40℃~+105℃ 1 3.5mm 1x2P Green Board Edge/Receptacle-Close Push-Pull,P=3.5mm Pluggable System Terminal Block"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UserValue" "Conn_01x02"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "DIBO"
+			(at 0 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DB2ERC-3.5-2P-GN"
+			(at 0 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPL1" "JLCPCB"
+			(at 0 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN1" "C395830"
+			(at 0 -22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LNK1" "https://jlcpcb.com/partdetail/Dibo-DB2ERC_3_5_2PGN/C395830"
+			(at 0 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNB1" "Extended Part"
+			(at 0 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "terminal block phoenix mc 3.5mm 3.5"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Conn-01x02_DB2ERC-3.5-2P-GN_1_1"
+			(rectangle
+				(start -1.27 -1.143)
+				(end 0 -1.397)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 1.397)
+				(end 0 1.143)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 2.54)
+				(end 1.27 -2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -5.08 1.27 0)
+				(length 3.81)
+				(name "Pin_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -1.27 0)
+				(length 3.81)
+				(name "Pin_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Conn-01x02_DB2EVC-3.81-2P-GN"
+		(pin_names hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 0 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn-01x02_DB2EVC-3.81-2P-GN"
+			(at 0 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_2-G-3.81_1x02_P3.81mm_Vertical"
+			(at 0 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2301061530_DORABO-DB2EVC-3-81-2P-GN_C395686.pdf"
+			(at 0 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" " 250V 10A 2 Straight pin -40℃~+105℃ 1 3.81mm 1x2P Green Board Edge/Receptacle-Close Plugin,P=3.81mm Pluggable System Terminal Block "
+			(at -1.27 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UserValue" "Conn_01x02"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" " DORABO"
+			(at 0 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DB2EVC-3.81-2P-GN"
+			(at 0 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPL1" "LCSC"
+			(at 0 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN1" "C395686"
+			(at 0 -22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LNK1" "https://www.lcsc.com/product-detail/Pluggable-System-Terminal-Block_DORABO-DB2EVC-3-81-2P-GN_C395686.html"
+			(at 0 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNB1" "Extended Part"
+			(at 0 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "terminal block phoenix mc 3.81mm 3.81 vertical"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Conn-01x02_DB2EVC-3.81-2P-GN_1_1"
+			(rectangle
+				(start -1.27 -1.143)
+				(end 0 -1.397)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 1.397)
+				(end 0 1.143)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 2.54)
+				(end 1.27 -2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -5.08 1.27 0)
+				(length 3.81)
+				(name "Pin_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -1.27 0)
+				(length 3.81)
+				(name "Pin_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Conn-01x02_P3.81_WJ15EDGRC-3.81-2P"
+		(pin_names hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 0 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn-01x02_P3.81_WJ15EDGRC-3.81-2P"
+			(at 0 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Phoenix_MC:PhoenixContact_MC_1,5_2-G-3.81_1x02_P3.81mm_Horizontal"
+			(at 0 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912251632_Ningbo-Kangnex-Elec-WJ15EDGRC-3-81-2P_C8387.pdf"
+			(at 0 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2 Bend 1 3.81mm 1x2P Green Board Edge/Receptacle-Close Push-Pull,P=3.81mm Pluggable System Terminal Block"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UserValue" "Conn_01x02"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Ningbo"
+			(at 0 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "WJ15EDGRC-3.81-2P"
+			(at 0 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPL1" "JLCPCB"
+			(at 0 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN1" "C8387"
+			(at 0 -22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LNK1" "https://jlcpcb.com/partdetail/Ningbo_KangnexElec-WJ15EDGRC_3_812P/C8387"
+			(at 0 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNB1" "Extended Part"
+			(at 0 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "terminal block phoenix mc 3.81mm 3.81"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Conn-01x02_P3.81_WJ15EDGRC-3.81-2P_1_1"
+			(rectangle
+				(start -1.27 -1.143)
+				(end 0 -1.397)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 1.397)
+				(end 0 1.143)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 2.54)
+				(end 1.27 -2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -5.08 1.27 0)
+				(length 3.81)
+				(name "Pin_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -1.27 0)
+				(length 3.81)
+				(name "Pin_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Conn-01x03_DB2ERC-3.5-3P-GN"
+		(pin_names hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 0 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn-01x03_DB2ERC-3.5-3P-GN"
+			(at 0 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Phoenix_MC:PhoenixContact_MC_1,5_3-G-3.5_1x03_P3.50mm_Horizontal"
+			(at 0 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912251632_Ningbo-Kangnex-Elec-WJ15EDGRC-3-81-2P_C8387.pdf"
+			(at 0 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "250V 10A 2 Bend -40℃~+105℃ 1 3.5mm 1x2P Green Board Edge/Receptacle-Close Push-Pull,P=3.5mm Pluggable System Terminal Block"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UserValue" "Conn_01x03"
+			(at 0 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "DIBO"
+			(at 0 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DB2ERC-3.5-3P-GN"
+			(at 0 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPL1" "JLCPCB"
+			(at 0 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN1" "C430551"
+			(at 0 -22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LNK1" "https://jlcpcb.com/partdetail/Dibo-DB2ERC_3_5_3PGN/C430551"
+			(at 0 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNB1" "Extended Part"
+			(at 0 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "terminal block phoenix mc 3.5mm 3.5"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Conn-01x03_DB2ERC-3.5-3P-GN_1_1"
+			(rectangle
+				(start 1.27 -2.413)
+				(end 2.54 -2.667)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 1.27 0.127)
+				(end 2.54 -0.127)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 1.27 2.667)
+				(end 2.54 2.413)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 1.27 3.81)
+				(end 3.81 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -2.54 2.54 0)
+				(length 3.81)
+				(name "Pin_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 0 0)
+				(length 3.81)
+				(name "Pin_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -2.54 0)
+				(length 3.81)
+				(name "Pin_3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Conn-02x02_DB2ERH-3.81-2*2P-GN"
+		(pin_names hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 0 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn-02x02_DB2ERH-3.81-2*2P-GN"
+			(at 0 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "00-kiml-connector-phoenix-mc:PhoenixContact_MC_1,5_2-G1-3.81_2x02_P3.81mm_Horizontal"
+			(at 0 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2303271500_DIBO-DB2ERH-3-81-2-2P-GN_C779347.pdf"
+			(at 0 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "300V 8A 2 Bend -40℃~+105℃ 2 3.81mm 2x2P Green Board Edge/Receptacle-Close Push-Pull,P=3.81mm Pluggable System Terminal Block"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UserValue" "Conn-02x02"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "DIBO"
+			(at 0 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DB2ERH-3.81-2*2P-GN"
+			(at 0 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPL1" "JLCPCB"
+			(at 0 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN1" "C779347"
+			(at 0 -22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LNK1" "https://jlcpcb.com/partdetail/Dibo-DB2ERH_3_81_2_2PGN/C779347"
+			(at 0 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNB1" "Extended Part"
+			(at 0 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "terminal block phoenix mc 3.81mm 3.81"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Conn-02x02_DB2ERH-3.81-2*2P-GN_1_1"
+			(rectangle
+				(start -2.54 -1.143)
+				(end -1.27 -1.397)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -2.54 1.397)
+				(end -1.27 1.143)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -2.54 2.54)
+				(end 2.54 -2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(rectangle
+				(start 2.54 -1.143)
+				(end 1.27 -1.397)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 2.54 1.397)
+				(end 1.27 1.143)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 6.35 1.27 180)
+				(length 3.81)
+				(name "Pin_1b"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "b1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6.35 -1.27 180)
+				(length 3.81)
+				(name "Pin_2b"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "b2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -6.35 1.27 0)
+				(length 3.81)
+				(name "Pin_1a"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "t1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -6.35 -1.27 0)
+				(length 3.81)
+				(name "Pin_2a"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "t2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 )
