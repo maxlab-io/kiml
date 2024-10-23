@@ -1031,7 +1031,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:Nordic_AQFN-73-1EP_7x7mm_P0.5mm"
+		(property "Footprint" "00-kiml-unsorted:Nordic_AQFN-73-1EP_7x7mm_P0.5mm"
 			(at 0 97.79 0)
 			(effects
 				(font
