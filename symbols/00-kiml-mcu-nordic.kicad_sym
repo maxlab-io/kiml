@@ -1031,7 +1031,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:Nordic_AQFN-73-1EP_7x7mm_P0.5mm"
+		(property "Footprint" "00-kiml-unsorted:Nordic_AQFN-73-1EP_7x7mm_P0.5mm"
 			(at 0 97.79 0)
 			(effects
 				(font
@@ -1040,7 +1040,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://infocenter.nordicsemi.com/topic/com.nordic.infocenter.nrf52/dita/nrf52/chips/nrf52840.html"
+		(property "Datasheet" "https://docs-be.nordicsemi.com/bundle/nRF52840_PS_v1.5/raw/resource/enus/nRF52840_PS_v1.5.pdf"
 			(at 0 95.25 0)
 			(effects
 				(font
@@ -1066,7 +1066,7 @@
 				)
 			)
 		)
-		(property "MFR" "Nordic"
+		(property "MFR" "Nordic Semiconductor"
 			(at 0 100.33 0)
 			(effects
 				(font
@@ -2403,7 +2403,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_out line
 				(at 0 71.12 270)
 				(length 5.08) hide
 				(name "VDD"

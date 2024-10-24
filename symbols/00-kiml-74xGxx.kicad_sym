@@ -387,6 +387,26 @@
 				)
 			)
 		)
+		(symbol "TI_SN74LVC1G125DRYR_1_0"
+			(pin no_connect line
+				(at 5.08 -2.54 180)
+				(length 2.54) hide
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
 		(symbol "TI_SN74LVC1G125DRYR_1_1"
 			(pin input inverted
 				(at 2.54 5.08 270)

@@ -1,0 +1,234 @@
+(footprint "SMAF"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.635 -2.032 0)
+		(layer "F.SilkS")
+		(uuid "41f6efb4-1959-44f8-8f5b-e8a25a962905")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SMAF"
+		(at 6.35 1.905 0)
+		(layer "F.Fab")
+		(uuid "79951a1e-be19-43fb-ada8-a4945cf01830")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a4d79399-5695-41a4-8989-2edba844f54c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fd5504c3-ad89-4db5-8626-340972e44591")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d911bf47-120c-4556-a819-578a016b9524")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.38 -0.975)
+		(end 1.38 -0.975)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "26c430a7-5cf4-4340-bc85-96133f22dc90")
+	)
+	(fp_line
+		(start -1.38 0.975)
+		(end 1.38 0.975)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "51e026a0-055d-4c31-bf46-11181cd7f27d")
+	)
+	(fp_circle
+		(center -2.605 0)
+		(end -2.505 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "199e5cde-5dd4-4288-a935-69780aa2df1d")
+	)
+	(fp_line
+		(start -2.405 -1.225)
+		(end -2.405 1.225)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3fafb84e-08ae-4679-9be5-882cca1b595a")
+	)
+	(fp_line
+		(start -2.405 -1.225)
+		(end 2.405 -1.225)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "aeccb1d2-869e-4e11-8ae0-7947adba241c")
+	)
+	(fp_line
+		(start 2.405 1.225)
+		(end -2.405 1.225)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6cbb78df-ee84-4f6c-a943-23ad9cd55eaa")
+	)
+	(fp_line
+		(start 2.405 1.225)
+		(end 2.405 -1.225)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "29696f8b-70e7-4b1d-81bd-f8b370c5d4de")
+	)
+	(fp_line
+		(start -1.5 -0.975)
+		(end -1.5 0.975)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c05e3562-17a2-4339-ab9b-0f97e1e8c16f")
+	)
+	(fp_line
+		(start -1.5 -0.975)
+		(end -0.6 -0.975)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c6c7765d-4d19-47fb-9aef-43032703fe51")
+	)
+	(fp_line
+		(start -0.6 -0.975)
+		(end 1.5 -0.975)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4b86e73a-b896-4992-809e-938624a98b4b")
+	)
+	(fp_line
+		(start -0.6 0.975)
+		(end -1.5 0.975)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d79e045e-ab1e-48db-9551-ecd93eeeb3b7")
+	)
+	(fp_line
+		(start 1.5 0.975)
+		(end -0.6 0.975)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2aa8d06e-0a77-46d7-9863-de113ab72fb4")
+	)
+	(fp_line
+		(start 1.5 0.975)
+		(end 1.5 -0.975)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1c80cb9e-f226-42b9-ad0a-a71dde36ddc0")
+	)
+	(fp_circle
+		(center -2.605 0)
+		(end -2.505 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "58bf118e-0185-41b6-8082-b3c8e38507aa")
+	)
+	(pad "A" smd roundrect
+		(at 1.53 0)
+		(size 1.25 1.16)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.102)
+		(uuid "e3559b5a-9750-4bdb-999f-44248d75d498")
+	)
+	(pad "K" smd roundrect
+		(at -1.53 0)
+		(size 1.25 1.16)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.102)
+		(uuid "de683df0-f084-4126-824a-9cdc002835f4")
+	)
+	(model "${KIML_ROOT}/3d/00-kiml-diode.3dshapes/SMAF.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
