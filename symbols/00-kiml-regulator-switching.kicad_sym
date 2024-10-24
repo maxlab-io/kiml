@@ -2921,6 +2921,24 @@
 		(symbol "TPS61170DRVR_1_0"
 			(pin power_in line
 				(at 0 -12.7 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -12.7 90)
 				(length 2.54) hide
 				(name "GND"
 					(effects
@@ -2950,10 +2968,10 @@
 					(type background)
 				)
 			)
-			(pin power_in line
-				(at -10.16 7.62 0)
+			(pin input line
+				(at 10.16 0 180)
 				(length 2.54)
-				(name "VIN"
+				(name "FB"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2968,10 +2986,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at -10.16 0 0)
+			(pin output line
+				(at -10.16 -7.62 0)
 				(length 2.54)
-				(name "CTRL"
+				(name "COMP"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2996,24 +3014,6 @@
 						)
 					)
 				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 -12.7 90)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
 				(number "4"
 					(effects
 						(font
@@ -3022,10 +3022,10 @@
 					)
 				)
 			)
-			(pin output line
-				(at -10.16 -7.62 0)
+			(pin input line
+				(at -10.16 0 0)
 				(length 2.54)
-				(name "COMP"
+				(name "CTRL"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3040,10 +3040,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at 10.16 0 180)
+			(pin power_in line
+				(at -10.16 7.62 0)
 				(length 2.54)
-				(name "FB"
+				(name "VIN"
 					(effects
 						(font
 							(size 1.27 1.27)
